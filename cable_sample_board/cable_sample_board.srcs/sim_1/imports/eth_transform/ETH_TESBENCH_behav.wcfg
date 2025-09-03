@@ -1,0 +1,2499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CS_TESBENCH_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CS_TESBENCH" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="440000000fs"></ZoomStartTime>
+      <ZoomEndTime time="193940000001fs"></ZoomEndTime>
+      <Cursor1Time time="47440000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="249"></NameColumnWidth>
+      <ValueColumnWidth column_width="70"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="611" />
+   <wave_markers>
+      <marker time="36303200000" label="" />
+      <marker time="20002500000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_read_clk" type="logic">
+      <obj_property name="ElementShortName">fifo_read_clk</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_read_ready" type="logic">
+      <obj_property name="ElementShortName">fifo_read_ready</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_read_valid" type="logic">
+      <obj_property name="ElementShortName">fifo_read_valid</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_read_data" type="array">
+      <obj_property name="ElementShortName">fifo_read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_write_clk" type="logic">
+      <obj_property name="ElementShortName">fifo_write_clk</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_write_ready" type="logic">
+      <obj_property name="ElementShortName">fifo_write_ready</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_write_valid" type="logic">
+      <obj_property name="ElementShortName">fifo_write_valid</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_write_data" type="array">
+      <obj_property name="ElementShortName">fifo_write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/rd_rst_busy" type="logic">
+      <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/wr_rst_busy" type="logic">
+      <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/rd_data_count" type="array">
+      <obj_property name="ElementShortName">rd_data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/wr_data_count" type="array">
+      <obj_property name="ElementShortName">wr_data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_count[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_read_valid_r" type="logic">
+      <obj_property name="ElementShortName">fifo_read_valid_r</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_valid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_read_data_r" type="array">
+      <obj_property name="ElementShortName">fifo_read_data_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_data_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_write_valid_r" type="logic">
+      <obj_property name="ElementShortName">fifo_write_valid_r</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_valid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_write_data_r" type="array">
+      <obj_property name="ElementShortName">fifo_write_data_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_data_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_rst_n" type="logic">
+      <obj_property name="ElementShortName">fifo_rst_n</obj_property>
+      <obj_property name="ObjectShortName">fifo_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/DATA_NUMBER_32" type="array">
+      <obj_property name="ElementShortName">DATA_NUMBER_32[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_NUMBER_32[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/wr_clk" type="logic">
+      <obj_property name="ElementShortName">wr_clk</obj_property>
+      <obj_property name="ObjectShortName">wr_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/rd_clk" type="logic">
+      <obj_property name="ElementShortName">rd_clk</obj_property>
+      <obj_property name="ObjectShortName">rd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/din" type="array">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/dout" type="array">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/almost_full" type="logic">
+      <obj_property name="ElementShortName">almost_full</obj_property>
+      <obj_property name="ObjectShortName">almost_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/almost_empty" type="logic">
+      <obj_property name="ElementShortName">almost_empty</obj_property>
+      <obj_property name="ObjectShortName">almost_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/rd_data_count" type="array">
+      <obj_property name="ElementShortName">rd_data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/wr_data_count" type="array">
+      <obj_property name="ElementShortName">wr_data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/wr_rst_busy" type="logic">
+      <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/rd_rst_busy" type="logic">
+      <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/eth_read_clk" type="logic">
+      <obj_property name="ElementShortName">eth_read_clk</obj_property>
+      <obj_property name="ObjectShortName">eth_read_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/eth_read_valid" type="logic">
+      <obj_property name="ElementShortName">eth_read_valid</obj_property>
+      <obj_property name="ObjectShortName">eth_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/eth_read_data_4" type="array">
+      <obj_property name="ElementShortName">eth_read_data_4[3:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_read_data_4[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/eth_write_clk" type="logic">
+      <obj_property name="ElementShortName">eth_write_clk</obj_property>
+      <obj_property name="ObjectShortName">eth_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/eth_write_valid" type="logic">
+      <obj_property name="ElementShortName">eth_write_valid</obj_property>
+      <obj_property name="ObjectShortName">eth_write_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/eth_write_data_4" type="array">
+      <obj_property name="ElementShortName">eth_write_data_4[3:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_write_data_4[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/eth_rst_n" type="logic">
+      <obj_property name="ElementShortName">eth_rst_n</obj_property>
+      <obj_property name="ObjectShortName">eth_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/da_write_clk" type="logic">
+      <obj_property name="ElementShortName">da_write_clk</obj_property>
+      <obj_property name="ObjectShortName">da_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/da_write_data" type="array">
+      <obj_property name="ElementShortName">da_write_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">da_write_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/ad0_write_clk" type="logic">
+      <obj_property name="ElementShortName">ad0_write_clk</obj_property>
+      <obj_property name="ObjectShortName">ad0_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/ad0_write_data" type="array">
+      <obj_property name="ElementShortName">ad0_write_data[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ad0_write_data[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/ad0_write_oe" type="logic">
+      <obj_property name="ElementShortName">ad0_write_oe</obj_property>
+      <obj_property name="ObjectShortName">ad0_write_oe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/ad1_write_clk" type="logic">
+      <obj_property name="ElementShortName">ad1_write_clk</obj_property>
+      <obj_property name="ObjectShortName">ad1_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/ad1_write_data" type="array">
+      <obj_property name="ElementShortName">ad1_write_data[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ad1_write_data[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/ad1_write_oe" type="logic">
+      <obj_property name="ElementShortName">ad1_write_oe</obj_property>
+      <obj_property name="ObjectShortName">ad1_write_oe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/clk_200mHz" type="logic">
+      <obj_property name="ElementShortName">clk_200mHz</obj_property>
+      <obj_property name="ObjectShortName">clk_200mHz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/types_read_clock" type="logic">
+      <obj_property name="ElementShortName">types_read_clock</obj_property>
+      <obj_property name="ObjectShortName">types_read_clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/locked" type="logic">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/signa_write_ready" type="logic">
+      <obj_property name="ElementShortName">signa_write_ready</obj_property>
+      <obj_property name="ObjectShortName">signa_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/encode0_write_ready" type="logic">
+      <obj_property name="ElementShortName">encode0_write_ready</obj_property>
+      <obj_property name="ObjectShortName">encode0_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/encode1_write_ready" type="logic">
+      <obj_property name="ElementShortName">encode1_write_ready</obj_property>
+      <obj_property name="ObjectShortName">encode1_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/source_write_ready" type="logic">
+      <obj_property name="ElementShortName">source_write_ready</obj_property>
+      <obj_property name="ObjectShortName">source_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/encode0_read_valid" type="logic">
+      <obj_property name="ElementShortName">encode0_read_valid</obj_property>
+      <obj_property name="ObjectShortName">encode0_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/encode0_read_data_8" type="array">
+      <obj_property name="ElementShortName">encode0_read_data_8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">encode0_read_data_8[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/encode1_read_valid" type="logic">
+      <obj_property name="ElementShortName">encode1_read_valid</obj_property>
+      <obj_property name="ObjectShortName">encode1_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/encode1_read_data_8" type="array">
+      <obj_property name="ElementShortName">encode1_read_data_8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">encode1_read_data_8[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/decode_read_valid" type="logic">
+      <obj_property name="ElementShortName">decode_read_valid</obj_property>
+      <obj_property name="ObjectShortName">decode_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/decode_read_valid_r" type="logic">
+      <obj_property name="ElementShortName">decode_read_valid_r</obj_property>
+      <obj_property name="ObjectShortName">decode_read_valid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/decode_read_data_8" type="array">
+      <obj_property name="ElementShortName">decode_read_data_8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">decode_read_data_8[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/decode_read_data_8_r" type="array">
+      <obj_property name="ElementShortName">decode_read_data_8_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">decode_read_data_8_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/count_read_valid" type="logic">
+      <obj_property name="ElementShortName">count_read_valid</obj_property>
+      <obj_property name="ObjectShortName">count_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/count_read_data" type="array">
+      <obj_property name="ElementShortName">count_read_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_read_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/encode2_write_ready" type="logic">
+      <obj_property name="ElementShortName">encode2_write_ready</obj_property>
+      <obj_property name="ObjectShortName">encode2_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/ad_read_valid" type="logic">
+      <obj_property name="ElementShortName">ad_read_valid</obj_property>
+      <obj_property name="ObjectShortName">ad_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/ad_read_data" type="array">
+      <obj_property name="ElementShortName">ad_read_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ad_read_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/types_read_ready" type="logic">
+      <obj_property name="ElementShortName">types_read_ready</obj_property>
+      <obj_property name="ObjectShortName">types_read_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/types_read_valid" type="logic">
+      <obj_property name="ElementShortName">types_read_valid</obj_property>
+      <obj_property name="ObjectShortName">types_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/types_read_data_8" type="array">
+      <obj_property name="ElementShortName">types_read_data_8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">types_read_data_8[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_read_clk" type="logic">
+      <obj_property name="ElementShortName">fifo_read_clk</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_read_ready" type="logic">
+      <obj_property name="ElementShortName">fifo_read_ready</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_read_valid" type="logic">
+      <obj_property name="ElementShortName">fifo_read_valid</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_read_data" type="array">
+      <obj_property name="ElementShortName">fifo_read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_write_clk" type="logic">
+      <obj_property name="ElementShortName">fifo_write_clk</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_write_ready" type="logic">
+      <obj_property name="ElementShortName">fifo_write_ready</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_write_valid" type="logic">
+      <obj_property name="ElementShortName">fifo_write_valid</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_write_data" type="array">
+      <obj_property name="ElementShortName">fifo_write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/rd_rst_busy" type="logic">
+      <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/wr_rst_busy" type="logic">
+      <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/rd_data_count" type="array">
+      <obj_property name="ElementShortName">rd_data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/wr_data_count" type="array">
+      <obj_property name="ElementShortName">wr_data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_read_valid_r" type="logic">
+      <obj_property name="ElementShortName">fifo_read_valid_r</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_valid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_read_data_r" type="array">
+      <obj_property name="ElementShortName">fifo_read_data_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_data_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_write_valid_r" type="logic">
+      <obj_property name="ElementShortName">fifo_write_valid_r</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_valid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_write_data_r" type="array">
+      <obj_property name="ElementShortName">fifo_write_data_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_data_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_rst_n" type="logic">
+      <obj_property name="ElementShortName">fifo_rst_n</obj_property>
+      <obj_property name="ObjectShortName">fifo_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/DATA_NUMBER_32" type="array">
+      <obj_property name="ElementShortName">DATA_NUMBER_32[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_NUMBER_32[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/valid_in" type="logic">
+      <obj_property name="ElementShortName">valid_in</obj_property>
+      <obj_property name="ObjectShortName">valid_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/clk_out_fifo" type="logic">
+      <obj_property name="ElementShortName">clk_out_fifo</obj_property>
+      <obj_property name="ObjectShortName">clk_out_fifo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/cnt1" type="array">
+      <obj_property name="ElementShortName">cnt1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/cnt2" type="array">
+      <obj_property name="ElementShortName">cnt2[9:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt2[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/data_out_r" type="array">
+      <obj_property name="ElementShortName">data_out_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/count1" type="array">
+      <obj_property name="ElementShortName">count1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/A_WIDTH1" type="array">
+      <obj_property name="ElementShortName">A_WIDTH1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A_WIDTH1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/B_WIDTH1" type="array">
+      <obj_property name="ElementShortName">B_WIDTH1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B_WIDTH1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/decode_write_ready" type="logic">
+      <obj_property name="ElementShortName">decode_write_ready</obj_property>
+      <obj_property name="ObjectShortName">decode_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/decode_write_valid" type="logic">
+      <obj_property name="ElementShortName">decode_write_valid</obj_property>
+      <obj_property name="ObjectShortName">decode_write_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/decode_write_data" type="array">
+      <obj_property name="ElementShortName">decode_write_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">decode_write_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/decode_read_ready" type="logic">
+      <obj_property name="ElementShortName">decode_read_ready</obj_property>
+      <obj_property name="ObjectShortName">decode_read_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/decode_read_valid" type="logic">
+      <obj_property name="ElementShortName">decode_read_valid</obj_property>
+      <obj_property name="ObjectShortName">decode_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/decode_read_data_8" type="array">
+      <obj_property name="ElementShortName">decode_read_data_8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">decode_read_data_8[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/preamble" type="array">
+      <obj_property name="ElementShortName">preamble[23:0]</obj_property>
+      <obj_property name="ObjectShortName">preamble[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/decode_read_data_r" type="array">
+      <obj_property name="ElementShortName">decode_read_data_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">decode_read_data_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/encode0_write_ready" type="logic">
+      <obj_property name="ElementShortName">encode0_write_ready</obj_property>
+      <obj_property name="ObjectShortName">encode0_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/encode0_write_valid" type="logic">
+      <obj_property name="ElementShortName">encode0_write_valid</obj_property>
+      <obj_property name="ObjectShortName">encode0_write_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/encode0_write_data_8" type="array">
+      <obj_property name="ElementShortName">encode0_write_data_8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">encode0_write_data_8[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/encode1_write_ready" type="logic">
+      <obj_property name="ElementShortName">encode1_write_ready</obj_property>
+      <obj_property name="ObjectShortName">encode1_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/encode1_write_valid" type="logic">
+      <obj_property name="ElementShortName">encode1_write_valid</obj_property>
+      <obj_property name="ObjectShortName">encode1_write_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/encode1_write_data_8" type="array">
+      <obj_property name="ElementShortName">encode1_write_data_8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">encode1_write_data_8[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/encode2_write_ready" type="logic">
+      <obj_property name="ElementShortName">encode2_write_ready</obj_property>
+      <obj_property name="ObjectShortName">encode2_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/encode2_write_valid" type="logic">
+      <obj_property name="ElementShortName">encode2_write_valid</obj_property>
+      <obj_property name="ObjectShortName">encode2_write_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/encode2_write_data_8" type="array">
+      <obj_property name="ElementShortName">encode2_write_data_8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">encode2_write_data_8[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/encode0_read_ready" type="logic">
+      <obj_property name="ElementShortName">encode0_read_ready</obj_property>
+      <obj_property name="ObjectShortName">encode0_read_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/encode0_read_valid" type="logic">
+      <obj_property name="ElementShortName">encode0_read_valid</obj_property>
+      <obj_property name="ObjectShortName">encode0_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/encode0_read_data_8" type="array">
+      <obj_property name="ElementShortName">encode0_read_data_8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">encode0_read_data_8[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/encode1_read_ready" type="logic">
+      <obj_property name="ElementShortName">encode1_read_ready</obj_property>
+      <obj_property name="ObjectShortName">encode1_read_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/encode1_read_valid" type="logic">
+      <obj_property name="ElementShortName">encode1_read_valid</obj_property>
+      <obj_property name="ObjectShortName">encode1_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/encode1_read_data_8" type="array">
+      <obj_property name="ElementShortName">encode1_read_data_8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">encode1_read_data_8[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/encode_read_ready" type="logic">
+      <obj_property name="ElementShortName">encode_read_ready</obj_property>
+      <obj_property name="ObjectShortName">encode_read_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/encode_read_valid" type="logic">
+      <obj_property name="ElementShortName">encode_read_valid</obj_property>
+      <obj_property name="ObjectShortName">encode_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/encode_read_data" type="array">
+      <obj_property name="ElementShortName">encode_read_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">encode_read_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[11:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/DATA_NUMBER_8" type="array">
+      <obj_property name="ElementShortName">DATA_NUMBER_8[9:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_NUMBER_8[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/DATA_NUMBER_32" type="array">
+      <obj_property name="ElementShortName">DATA_NUMBER_32[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_NUMBER_32[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/signa_write_ready" type="logic">
+      <obj_property name="ElementShortName">signa_write_ready</obj_property>
+      <obj_property name="ObjectShortName">signa_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/signa_write_valid" type="logic">
+      <obj_property name="ElementShortName">signa_write_valid</obj_property>
+      <obj_property name="ObjectShortName">signa_write_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/signa_write_data" type="logic">
+      <obj_property name="ElementShortName">signa_write_data</obj_property>
+      <obj_property name="ObjectShortName">signa_write_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/count_read_ready" type="logic">
+      <obj_property name="ElementShortName">count_read_ready</obj_property>
+      <obj_property name="ObjectShortName">count_read_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/count_read_valid" type="logic">
+      <obj_property name="ElementShortName">count_read_valid</obj_property>
+      <obj_property name="ObjectShortName">count_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/count_read_data" type="array">
+      <obj_property name="ElementShortName">count_read_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_read_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/flg" type="logic">
+      <obj_property name="ElementShortName">flg</obj_property>
+      <obj_property name="ObjectShortName">flg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_SST/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_SST/source_write_ready" type="logic">
+      <obj_property name="ElementShortName">source_write_ready</obj_property>
+      <obj_property name="ObjectShortName">source_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_SST/source_write_valid" type="logic">
+      <obj_property name="ElementShortName">source_write_valid</obj_property>
+      <obj_property name="ObjectShortName">source_write_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_SST/source_write_data" type="array">
+      <obj_property name="ElementShortName">source_write_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">source_write_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_SST/source_read_clk" type="logic">
+      <obj_property name="ElementShortName">source_read_clk</obj_property>
+      <obj_property name="ObjectShortName">source_read_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_SST/source_read_ready" type="logic">
+      <obj_property name="ElementShortName">source_read_ready</obj_property>
+      <obj_property name="ObjectShortName">source_read_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_SST/source_read_valid" type="logic">
+      <obj_property name="ElementShortName">source_read_valid</obj_property>
+      <obj_property name="ObjectShortName">source_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_SST/source_read_data_8" type="array">
+      <obj_property name="ElementShortName">source_read_data_8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">source_read_data_8[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_SST/source_read_adress_valid" type="logic">
+      <obj_property name="ElementShortName">source_read_adress_valid</obj_property>
+      <obj_property name="ObjectShortName">source_read_adress_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_SST/source_read_adress" type="array">
+      <obj_property name="ElementShortName">source_read_adress[8:0]</obj_property>
+      <obj_property name="ObjectShortName">source_read_adress[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_SST/SOURCE_FREQUENCY0" type="array">
+      <obj_property name="ElementShortName">SOURCE_FREQUENCY0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SOURCE_FREQUENCY0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_SST/SOURCE_FREQUENCY1" type="array">
+      <obj_property name="ElementShortName">SOURCE_FREQUENCY1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SOURCE_FREQUENCY1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_SST/SOURCE_FREQUENCY2" type="array">
+      <obj_property name="ElementShortName">SOURCE_FREQUENCY2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SOURCE_FREQUENCY2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_SST/SOURCE_FREQUENCY3" type="array">
+      <obj_property name="ElementShortName">SOURCE_FREQUENCY3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SOURCE_FREQUENCY3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_SST/MOVE" type="array">
+      <obj_property name="ElementShortName">MOVE[8:0]</obj_property>
+      <obj_property name="ObjectShortName">MOVE[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/ad_read_ready" type="logic">
+      <obj_property name="ElementShortName">ad_read_ready</obj_property>
+      <obj_property name="ObjectShortName">ad_read_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/ad_read_valid" type="logic">
+      <obj_property name="ElementShortName">ad_read_valid</obj_property>
+      <obj_property name="ObjectShortName">ad_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/ad_read_data" type="array">
+      <obj_property name="ElementShortName">ad_read_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ad_read_data[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/ad0_write_clk" type="logic">
+      <obj_property name="ElementShortName">ad0_write_clk</obj_property>
+      <obj_property name="ObjectShortName">ad0_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/ad0_write_data" type="array">
+      <obj_property name="ElementShortName">ad0_write_data[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ad0_write_data[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/ad0_write_oe" type="logic">
+      <obj_property name="ElementShortName">ad0_write_oe</obj_property>
+      <obj_property name="ObjectShortName">ad0_write_oe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/ad1_write_clk" type="logic">
+      <obj_property name="ElementShortName">ad1_write_clk</obj_property>
+      <obj_property name="ObjectShortName">ad1_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/ad1_write_data" type="array">
+      <obj_property name="ElementShortName">ad1_write_data[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ad1_write_data[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/ad1_write_oe" type="logic">
+      <obj_property name="ElementShortName">ad1_write_oe</obj_property>
+      <obj_property name="ObjectShortName">ad1_write_oe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/cur_state" type="array">
+      <obj_property name="ElementShortName">cur_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/st_done" type="logic">
+      <obj_property name="ElementShortName">st_done</obj_property>
+      <obj_property name="ObjectShortName">st_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/cnt1" type="logic">
+      <obj_property name="ElementShortName">cnt1</obj_property>
+      <obj_property name="ObjectShortName">cnt1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/cnt3" type="array">
+      <obj_property name="ElementShortName">cnt3[9:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt3[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/FREE" type="array">
+      <obj_property name="ElementShortName">FREE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">FREE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/DELY" type="array">
+      <obj_property name="ElementShortName">DELY[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DELY[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/AD_SAMPLE" type="array">
+      <obj_property name="ElementShortName">AD_SAMPLE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">AD_SAMPLE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/wr_clk" type="logic">
+      <obj_property name="ElementShortName">wr_clk</obj_property>
+      <obj_property name="ObjectShortName">wr_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/rd_clk" type="logic">
+      <obj_property name="ElementShortName">rd_clk</obj_property>
+      <obj_property name="ObjectShortName">rd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/wr_data_count" type="array">
+      <obj_property name="ElementShortName">wr_data_count[9:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_count[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/din" type="array">
+      <obj_property name="ElementShortName">din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/dout" type="array">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/almost_full" type="logic">
+      <obj_property name="ElementShortName">almost_full</obj_property>
+      <obj_property name="ObjectShortName">almost_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/almost_empty" type="logic">
+      <obj_property name="ElementShortName">almost_empty</obj_property>
+      <obj_property name="ObjectShortName">almost_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/rd_data_count" type="array">
+      <obj_property name="ElementShortName">rd_data_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_count[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/wr_rst_busy" type="logic">
+      <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/rd_rst_busy" type="logic">
+      <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_write_clk" type="logic">
+      <obj_property name="ElementShortName">fifo_write_clk</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_write_ready" type="logic">
+      <obj_property name="ElementShortName">fifo_write_ready</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_write_valid" type="logic">
+      <obj_property name="ElementShortName">fifo_write_valid</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_write_data" type="array">
+      <obj_property name="ElementShortName">fifo_write_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_read_clk" type="logic">
+      <obj_property name="ElementShortName">fifo_read_clk</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_read_ready" type="logic">
+      <obj_property name="ElementShortName">fifo_read_ready</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_read_valid" type="logic">
+      <obj_property name="ElementShortName">fifo_read_valid</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_read_data" type="array">
+      <obj_property name="ElementShortName">fifo_read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/rd_rst_busy" type="logic">
+      <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/wr_rst_busy" type="logic">
+      <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/rd_data_count" type="array">
+      <obj_property name="ElementShortName">rd_data_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_count[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/wr_data_count" type="array">
+      <obj_property name="ElementShortName">wr_data_count[9:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_count[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_rst_n" type="logic">
+      <obj_property name="ElementShortName">fifo_rst_n</obj_property>
+      <obj_property name="ObjectShortName">fifo_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_write_valid_r" type="logic">
+      <obj_property name="ElementShortName">fifo_write_valid_r</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_valid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_write_data_r" type="array">
+      <obj_property name="ElementShortName">fifo_write_data_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_data_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/DATA_AND_HEARDS_NUMBER_32" type="array">
+      <obj_property name="ElementShortName">DATA_AND_HEARDS_NUMBER_32[14:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_AND_HEARDS_NUMBER_32[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_W/fifo_write_ready" type="logic">
+      <obj_property name="ElementShortName">fifo_write_ready</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_W/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_W/cur_state" type="array">
+      <obj_property name="ElementShortName">cur_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_W/rd_rst_busy" type="logic">
+      <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_W/wr_rst_busy" type="logic">
+      <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_W/rd_data_count" type="array">
+      <obj_property name="ElementShortName">rd_data_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_count[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_W/wr_data_count" type="array">
+      <obj_property name="ElementShortName">wr_data_count[9:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_count[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_W/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_W/fifo_write_clk" type="logic">
+      <obj_property name="ElementShortName">fifo_write_clk</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_W/fifo_write_ready" type="logic">
+      <obj_property name="ElementShortName">fifo_write_ready</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_W/fifo_write_valid" type="logic">
+      <obj_property name="ElementShortName">fifo_write_valid</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_W/fifo_write_data" type="array">
+      <obj_property name="ElementShortName">fifo_write_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_W/fifo_write_valid_r" type="logic">
+      <obj_property name="ElementShortName">fifo_write_valid_r</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_valid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_W/fifo_write_data_r" type="array">
+      <obj_property name="ElementShortName">fifo_write_data_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_data_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_W/st_done" type="logic">
+      <obj_property name="ElementShortName">st_done</obj_property>
+      <obj_property name="ObjectShortName">st_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_W/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[10:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_W/DATA_AND_HEARDS_NUMBER_32" type="array">
+      <obj_property name="ElementShortName">DATA_AND_HEARDS_NUMBER_32[14:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_AND_HEARDS_NUMBER_32[14:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_W/FREE" type="array">
+      <obj_property name="ElementShortName">FREE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">FREE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_W/DELY" type="array">
+      <obj_property name="ElementShortName">DELY[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DELY[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_W/FIFO_WRITE" type="array">
+      <obj_property name="ElementShortName">FIFO_WRITE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_WRITE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_R/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_R/wr_data_count" type="array">
+      <obj_property name="ElementShortName">wr_data_count[9:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_count[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_R/rd_data_count" type="array">
+      <obj_property name="ElementShortName">rd_data_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_R/fifo_read_clk" type="logic">
+      <obj_property name="ElementShortName">fifo_read_clk</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_R/fifo_read_ready" type="logic">
+      <obj_property name="ElementShortName">fifo_read_ready</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_R/fifo_read_valid" type="logic">
+      <obj_property name="ElementShortName">fifo_read_valid</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_R/cur_state" type="array">
+      <obj_property name="ElementShortName">cur_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_R/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_R/st_done" type="logic">
+      <obj_property name="ElementShortName">st_done</obj_property>
+      <obj_property name="ObjectShortName">st_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_R/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[10:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_R/FREE" type="array">
+      <obj_property name="ElementShortName">FREE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">FREE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_R/DELY" type="array">
+      <obj_property name="ElementShortName">DELY[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DELY[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_R/FIFO_READ" type="array">
+      <obj_property name="ElementShortName">FIFO_READ[2:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_READ[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/U_F_S_R/HEARDS_NUMBER" type="array">
+      <obj_property name="ElementShortName">HEARDS_NUMBER[14:0]</obj_property>
+      <obj_property name="ObjectShortName">HEARDS_NUMBER[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/DATA_SEND_NUMBER_8" type="array">
+      <obj_property name="ElementShortName">DATA_SEND_NUMBER_8[14:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_SEND_NUMBER_8[14:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/eth_rxd_gmii" type="array">
+      <obj_property name="ElementShortName">eth_rxd_gmii[7:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_rxd_gmii[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/eth_read_clk" type="logic">
+      <obj_property name="ElementShortName">eth_read_clk</obj_property>
+      <obj_property name="ObjectShortName">eth_read_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/eth_read_valid" type="logic">
+      <obj_property name="ElementShortName">eth_read_valid</obj_property>
+      <obj_property name="ObjectShortName">eth_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/eth_read_data_4" type="array">
+      <obj_property name="ElementShortName">eth_read_data_4[3:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_read_data_4[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/eth_write_clk" type="logic">
+      <obj_property name="ElementShortName">eth_write_clk</obj_property>
+      <obj_property name="ObjectShortName">eth_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/eth_write_valid" type="logic">
+      <obj_property name="ElementShortName">eth_write_valid</obj_property>
+      <obj_property name="ObjectShortName">eth_write_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/eth_write_data_4" type="array">
+      <obj_property name="ElementShortName">eth_write_data_4[3:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_write_data_4[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/eth_rst_n" type="logic">
+      <obj_property name="ElementShortName">eth_rst_n</obj_property>
+      <obj_property name="ObjectShortName">eth_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/da_write_clk" type="logic">
+      <obj_property name="ElementShortName">da_write_clk</obj_property>
+      <obj_property name="ObjectShortName">da_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/da_write_data" type="array">
+      <obj_property name="ElementShortName">da_write_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">da_write_data[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/ad0_write_clk" type="logic">
+      <obj_property name="ElementShortName">ad0_write_clk</obj_property>
+      <obj_property name="ObjectShortName">ad0_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/ad0_write_data" type="array">
+      <obj_property name="ElementShortName">ad0_write_data[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ad0_write_data[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/ad0_write_oe" type="logic">
+      <obj_property name="ElementShortName">ad0_write_oe</obj_property>
+      <obj_property name="ObjectShortName">ad0_write_oe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/ad1_write_clk" type="logic">
+      <obj_property name="ElementShortName">ad1_write_clk</obj_property>
+      <obj_property name="ObjectShortName">ad1_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/ad1_write_data" type="array">
+      <obj_property name="ElementShortName">ad1_write_data[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ad1_write_data[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/ad1_write_oe" type="logic">
+      <obj_property name="ElementShortName">ad1_write_oe</obj_property>
+      <obj_property name="ObjectShortName">ad1_write_oe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[10:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/cnt1" type="array">
+      <obj_property name="ElementShortName">cnt1[10:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt1[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/flg" type="logic">
+      <obj_property name="ElementShortName">flg</obj_property>
+      <obj_property name="ObjectShortName">flg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/eth_rxd_gmii" type="array">
+      <obj_property name="ElementShortName">eth_rxd_gmii[7:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_rxd_gmii[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/eth_rx_ctl_gmii" type="logic">
+      <obj_property name="ElementShortName">eth_rx_ctl_gmii</obj_property>
+      <obj_property name="ObjectShortName">eth_rx_ctl_gmii</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/eth_rxc_gmii" type="logic">
+      <obj_property name="ElementShortName">eth_rxc_gmii</obj_property>
+      <obj_property name="ObjectShortName">eth_rxc_gmii</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/eth_ready_ready" type="logic">
+      <obj_property name="ElementShortName">eth_ready_ready</obj_property>
+      <obj_property name="ObjectShortName">eth_ready_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/k" type="array">
+      <obj_property name="ElementShortName">k[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/file_r" type="array">
+      <obj_property name="ElementShortName">file_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">file_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/data0" type="array">
+      <obj_property name="ElementShortName">data0[121:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">data0[121:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/data1" type="array">
+      <obj_property name="ElementShortName">data1[121:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">data1[121:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/data2" type="array">
+      <obj_property name="ElementShortName">data2[121:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">data2[121:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/da1" type="array">
+      <obj_property name="ElementShortName">da1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">da1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/da2" type="array">
+      <obj_property name="ElementShortName">da2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">da2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/WIDTH" type="array">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/DEPTH" type="array">
+      <obj_property name="ElementShortName">DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DEPTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/SEND_DEPTH" type="array">
+      <obj_property name="ElementShortName">SEND_DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SEND_DEPTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/SEND_DEPTH_commd" type="array">
+      <obj_property name="ElementShortName">SEND_DEPTH_commd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SEND_DEPTH_commd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/FILE_PATH_A" type="array">
+      <obj_property name="ElementShortName">FILE_PATH_A[239:0]</obj_property>
+      <obj_property name="ObjectShortName">FILE_PATH_A[239:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/wr_clk" type="logic">
+      <obj_property name="ElementShortName">wr_clk</obj_property>
+      <obj_property name="ObjectShortName">wr_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/rd_clk" type="logic">
+      <obj_property name="ElementShortName">rd_clk</obj_property>
+      <obj_property name="ObjectShortName">rd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/din" type="array">
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/dout" type="array">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/almost_full" type="logic">
+      <obj_property name="ElementShortName">almost_full</obj_property>
+      <obj_property name="ObjectShortName">almost_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/almost_empty" type="logic">
+      <obj_property name="ElementShortName">almost_empty</obj_property>
+      <obj_property name="ObjectShortName">almost_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/rd_data_count" type="array">
+      <obj_property name="ElementShortName">rd_data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_count[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/wr_data_count" type="array">
+      <obj_property name="ElementShortName">wr_data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_count[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/wr_rst_busy" type="logic">
+      <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_recive/rd_rst_busy" type="logic">
+      <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_read_ready" type="logic">
+      <obj_property name="ElementShortName">fifo_read_ready</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_read_data" type="array">
+      <obj_property name="ElementShortName">fifo_read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_write_data" type="array">
+      <obj_property name="ElementShortName">fifo_write_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_write_valid" type="logic">
+      <obj_property name="ElementShortName">fifo_write_valid</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/tx_data" type="array">
+      <obj_property name="ElementShortName">tx_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/decode_write_ready" type="logic">
+      <obj_property name="ElementShortName">decode_write_ready</obj_property>
+      <obj_property name="ObjectShortName">decode_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/decode_write_valid" type="logic">
+      <obj_property name="ElementShortName">decode_write_valid</obj_property>
+      <obj_property name="ObjectShortName">decode_write_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/decode_write_data" type="array">
+      <obj_property name="ElementShortName">decode_write_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">decode_write_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/decode_read_ready" type="logic">
+      <obj_property name="ElementShortName">decode_read_ready</obj_property>
+      <obj_property name="ObjectShortName">decode_read_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/decode_read_valid" type="logic">
+      <obj_property name="ElementShortName">decode_read_valid</obj_property>
+      <obj_property name="ObjectShortName">decode_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/decode_read_data_8" type="array">
+      <obj_property name="ElementShortName">decode_read_data_8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">decode_read_data_8[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/preamble" type="array">
+      <obj_property name="ElementShortName">preamble[23:0]</obj_property>
+      <obj_property name="ObjectShortName">preamble[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/decode_read_data_r" type="array">
+      <obj_property name="ElementShortName">decode_read_data_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">decode_read_data_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_DECODE/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/valid_in" type="logic">
+      <obj_property name="ElementShortName">valid_in</obj_property>
+      <obj_property name="ObjectShortName">valid_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/clk_out_fifo" type="logic">
+      <obj_property name="ElementShortName">clk_out_fifo</obj_property>
+      <obj_property name="ObjectShortName">clk_out_fifo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/valid_out" type="logic">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/cnt1" type="array">
+      <obj_property name="ElementShortName">cnt1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/cnt2" type="array">
+      <obj_property name="ElementShortName">cnt2[9:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt2[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/data_out_r" type="array">
+      <obj_property name="ElementShortName">data_out_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/count1" type="array">
+      <obj_property name="ElementShortName">count1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/A_WIDTH1" type="array">
+      <obj_property name="ElementShortName">A_WIDTH1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A_WIDTH1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_W32T8/B_WIDTH1" type="array">
+      <obj_property name="ElementShortName">B_WIDTH1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B_WIDTH1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/rd_data_count" type="array">
+      <obj_property name="ElementShortName">rd_data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/wr_data_count" type="array">
+      <obj_property name="ElementShortName">wr_data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_read_valid_r" type="logic">
+      <obj_property name="ElementShortName">fifo_read_valid_r</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_valid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_read_data_r" type="array">
+      <obj_property name="ElementShortName">fifo_read_data_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_data_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/rd_rst_busy" type="logic">
+      <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/wr_rst_busy" type="logic">
+      <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/rd_data_count" type="array">
+      <obj_property name="ElementShortName">rd_data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/wr_data_count" type="array">
+      <obj_property name="ElementShortName">wr_data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/fifo_write_clk" type="logic">
+      <obj_property name="ElementShortName">fifo_write_clk</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/fifo_write_ready" type="logic">
+      <obj_property name="ElementShortName">fifo_write_ready</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/fifo_write_valid" type="logic">
+      <obj_property name="ElementShortName">fifo_write_valid</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/fifo_write_data" type="array">
+      <obj_property name="ElementShortName">fifo_write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/fifo_write_valid_r" type="logic">
+      <obj_property name="ElementShortName">fifo_write_valid_r</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_valid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/fifo_write_data_r" type="array">
+      <obj_property name="ElementShortName">fifo_write_data_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_data_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/cur_state" type="array">
+      <obj_property name="ElementShortName">cur_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/st_done" type="logic">
+      <obj_property name="ElementShortName">st_done</obj_property>
+      <obj_property name="ObjectShortName">st_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[10:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/DATA_NUMBER_32" type="array">
+      <obj_property name="ElementShortName">DATA_NUMBER_32[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_NUMBER_32[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/FREE" type="array">
+      <obj_property name="ElementShortName">FREE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">FREE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/DELY" type="array">
+      <obj_property name="ElementShortName">DELY[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DELY[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/FIFO_WRITE" type="array">
+      <obj_property name="ElementShortName">FIFO_WRITE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_WRITE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/rec_en" type="logic">
+      <obj_property name="ElementShortName">rec_en</obj_property>
+      <obj_property name="ObjectShortName">rec_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/rec_data" type="array">
+      <obj_property name="ElementShortName">rec_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rec_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/gmii_rx_dv" type="logic">
+      <obj_property name="ElementShortName">gmii_rx_dv</obj_property>
+      <obj_property name="ObjectShortName">gmii_rx_dv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/gmii_rxd" type="array">
+      <obj_property name="ElementShortName">gmii_rxd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gmii_rxd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/rec_en" type="logic">
+      <obj_property name="ElementShortName">rec_en</obj_property>
+      <obj_property name="ObjectShortName">rec_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/rec_data" type="array">
+      <obj_property name="ElementShortName">rec_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rec_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/data_byte_num" type="array">
+      <obj_property name="ElementShortName">data_byte_num[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_byte_num[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_read_clk" type="logic">
+      <obj_property name="ElementShortName">fifo_read_clk</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_read_ready" type="logic">
+      <obj_property name="ElementShortName">fifo_read_ready</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_read_valid" type="logic">
+      <obj_property name="ElementShortName">fifo_read_valid</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_read_data" type="array">
+      <obj_property name="ElementShortName">fifo_read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_write_clk" type="logic">
+      <obj_property name="ElementShortName">fifo_write_clk</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_write_ready" type="logic">
+      <obj_property name="ElementShortName">fifo_write_ready</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_write_valid" type="logic">
+      <obj_property name="ElementShortName">fifo_write_valid</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_write_data" type="array">
+      <obj_property name="ElementShortName">fifo_write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/rd_rst_busy" type="logic">
+      <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/wr_rst_busy" type="logic">
+      <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/rd_data_count" type="array">
+      <obj_property name="ElementShortName">rd_data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/wr_data_count" type="array">
+      <obj_property name="ElementShortName">wr_data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_read_valid_r" type="logic">
+      <obj_property name="ElementShortName">fifo_read_valid_r</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_valid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_read_data_r" type="array">
+      <obj_property name="ElementShortName">fifo_read_data_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_data_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_write_valid_r" type="logic">
+      <obj_property name="ElementShortName">fifo_write_valid_r</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_valid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_write_data_r" type="array">
+      <obj_property name="ElementShortName">fifo_write_data_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_data_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/fifo_rst_n" type="logic">
+      <obj_property name="ElementShortName">fifo_rst_n</obj_property>
+      <obj_property name="ObjectShortName">fifo_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/DATA_NUMBER_32" type="array">
+      <obj_property name="ElementShortName">DATA_NUMBER_32[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_NUMBER_32[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_R/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_R/wr_data_count" type="array">
+      <obj_property name="ElementShortName">wr_data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_R/rd_data_count" type="array">
+      <obj_property name="ElementShortName">rd_data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_R/fifo_read_clk" type="logic">
+      <obj_property name="ElementShortName">fifo_read_clk</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_R/fifo_read_ready" type="logic">
+      <obj_property name="ElementShortName">fifo_read_ready</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_R/fifo_read_valid" type="logic">
+      <obj_property name="ElementShortName">fifo_read_valid</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_R/fifo_read_data" type="array">
+      <obj_property name="ElementShortName">fifo_read_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_R/fifo_read_valid_r" type="logic">
+      <obj_property name="ElementShortName">fifo_read_valid_r</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_valid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_R/fifo_read_data_r" type="array">
+      <obj_property name="ElementShortName">fifo_read_data_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_read_data_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_R/cur_state" type="array">
+      <obj_property name="ElementShortName">cur_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_R/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_R/st_done" type="logic">
+      <obj_property name="ElementShortName">st_done</obj_property>
+      <obj_property name="ObjectShortName">st_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_R/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[10:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_R/FREE" type="array">
+      <obj_property name="ElementShortName">FREE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">FREE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_R/DELY" type="array">
+      <obj_property name="ElementShortName">DELY[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DELY[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_R/FIFO_READ" type="array">
+      <obj_property name="ElementShortName">FIFO_READ[2:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_READ[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_R/DATA_NUMBER_32" type="array">
+      <obj_property name="ElementShortName">DATA_NUMBER_32[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_NUMBER_32[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/rd_rst_busy" type="logic">
+      <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/wr_rst_busy" type="logic">
+      <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/rd_data_count" type="array">
+      <obj_property name="ElementShortName">rd_data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/wr_data_count" type="array">
+      <obj_property name="ElementShortName">wr_data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_count[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/fifo_write_clk" type="logic">
+      <obj_property name="ElementShortName">fifo_write_clk</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/fifo_write_ready" type="logic">
+      <obj_property name="ElementShortName">fifo_write_ready</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/fifo_write_valid" type="logic">
+      <obj_property name="ElementShortName">fifo_write_valid</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/fifo_write_data" type="array">
+      <obj_property name="ElementShortName">fifo_write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/fifo_write_valid_r" type="logic">
+      <obj_property name="ElementShortName">fifo_write_valid_r</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_valid_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/fifo_write_data_r" type="array">
+      <obj_property name="ElementShortName">fifo_write_data_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_data_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/cur_state" type="array">
+      <obj_property name="ElementShortName">cur_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/st_done" type="logic">
+      <obj_property name="ElementShortName">st_done</obj_property>
+      <obj_property name="ObjectShortName">st_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[10:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/DATA_NUMBER_32" type="array">
+      <obj_property name="ElementShortName">DATA_NUMBER_32[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_NUMBER_32[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/FREE" type="array">
+      <obj_property name="ElementShortName">FREE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">FREE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/DELY" type="array">
+      <obj_property name="ElementShortName">DELY[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DELY[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/FIFO_WRITE" type="array">
+      <obj_property name="ElementShortName">FIFO_WRITE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_WRITE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_gmii_to_rgmii/u_rgmii_rx/idelay_clk" type="logic">
+      <obj_property name="ElementShortName">idelay_clk</obj_property>
+      <obj_property name="ObjectShortName">idelay_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_gmii_to_rgmii/u_rgmii_rx/rgmii_rxc" type="logic">
+      <obj_property name="ElementShortName">rgmii_rxc</obj_property>
+      <obj_property name="ObjectShortName">rgmii_rxc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_gmii_to_rgmii/u_rgmii_rx/rgmii_rx_ctl" type="logic">
+      <obj_property name="ElementShortName">rgmii_rx_ctl</obj_property>
+      <obj_property name="ObjectShortName">rgmii_rx_ctl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_gmii_to_rgmii/u_rgmii_rx/rgmii_rxd" type="array">
+      <obj_property name="ElementShortName">rgmii_rxd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rgmii_rxd[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_gmii_to_rgmii/u_rgmii_rx/gmii_rx_clk" type="logic">
+      <obj_property name="ElementShortName">gmii_rx_clk</obj_property>
+      <obj_property name="ObjectShortName">gmii_rx_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_gmii_to_rgmii/u_rgmii_rx/gmii_rx_dv" type="logic">
+      <obj_property name="ElementShortName">gmii_rx_dv</obj_property>
+      <obj_property name="ObjectShortName">gmii_rx_dv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_gmii_to_rgmii/u_rgmii_rx/gmii_rxd" type="array">
+      <obj_property name="ElementShortName">gmii_rxd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gmii_rxd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_gmii_to_rgmii/u_rgmii_rx/rgmii_rxc_bufg" type="logic">
+      <obj_property name="ElementShortName">rgmii_rxc_bufg</obj_property>
+      <obj_property name="ObjectShortName">rgmii_rxc_bufg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_gmii_to_rgmii/u_rgmii_rx/rgmii_rxc_bufio" type="logic">
+      <obj_property name="ElementShortName">rgmii_rxc_bufio</obj_property>
+      <obj_property name="ObjectShortName">rgmii_rxc_bufio</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_gmii_to_rgmii/u_rgmii_rx/rgmii_rxd_delay" type="array">
+      <obj_property name="ElementShortName">rgmii_rxd_delay[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rgmii_rxd_delay[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_gmii_to_rgmii/u_rgmii_rx/rgmii_rx_ctl_delay" type="logic">
+      <obj_property name="ElementShortName">rgmii_rx_ctl_delay</obj_property>
+      <obj_property name="ObjectShortName">rgmii_rx_ctl_delay</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_gmii_to_rgmii/u_rgmii_rx/gmii_rxdv_t" type="array">
+      <obj_property name="ElementShortName">gmii_rxdv_t[1:0]</obj_property>
+      <obj_property name="ObjectShortName">gmii_rxdv_t[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_gmii_to_rgmii/u_rgmii_rx/IDELAY_VALUE" type="array">
+      <obj_property name="ElementShortName">IDELAY_VALUE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IDELAY_VALUE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/crc_en" type="logic">
+      <obj_property name="ElementShortName">crc_en</obj_property>
+      <obj_property name="ObjectShortName">crc_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/crc_clr" type="logic">
+      <obj_property name="ElementShortName">crc_clr</obj_property>
+      <obj_property name="ObjectShortName">crc_clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/crc_data" type="array">
+      <obj_property name="ElementShortName">crc_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">crc_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/crc_next" type="array">
+      <obj_property name="ElementShortName">crc_next[7:0]</obj_property>
+      <obj_property name="ObjectShortName">crc_next[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/erron" type="logic">
+      <obj_property name="ElementShortName">erron</obj_property>
+      <obj_property name="ObjectShortName">erron</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/rec_data_cccrc" type="array">
+      <obj_property name="ElementShortName">rec_data_cccrc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rec_data_cccrc[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/gmii_rx_dv" type="logic">
+      <obj_property name="ElementShortName">gmii_rx_dv</obj_property>
+      <obj_property name="ObjectShortName">gmii_rx_dv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/gmii_rxd" type="array">
+      <obj_property name="ElementShortName">gmii_rxd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gmii_rxd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/rec_pkt_done" type="logic">
+      <obj_property name="ElementShortName">rec_pkt_done</obj_property>
+      <obj_property name="ObjectShortName">rec_pkt_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/rec_data" type="array">
+      <obj_property name="ElementShortName">rec_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rec_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/rec_en" type="logic">
+      <obj_property name="ElementShortName">rec_en</obj_property>
+      <obj_property name="ObjectShortName">rec_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/rec_byte_num" type="array">
+      <obj_property name="ElementShortName">rec_byte_num[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rec_byte_num[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/cur_state" type="array">
+      <obj_property name="ElementShortName">cur_state[6:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_state[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[6:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/skip_en" type="logic">
+      <obj_property name="ElementShortName">skip_en</obj_property>
+      <obj_property name="ObjectShortName">skip_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/error_en" type="logic">
+      <obj_property name="ElementShortName">error_en</obj_property>
+      <obj_property name="ObjectShortName">error_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/des_mac" type="array">
+      <obj_property name="ElementShortName">des_mac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">des_mac[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/eth_type" type="array">
+      <obj_property name="ElementShortName">eth_type[15:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_type[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/des_ip" type="array">
+      <obj_property name="ElementShortName">des_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">des_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/ip_head_byte_num" type="array">
+      <obj_property name="ElementShortName">ip_head_byte_num[5:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_head_byte_num[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/udp_byte_num" type="array">
+      <obj_property name="ElementShortName">udp_byte_num[15:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_byte_num[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/data_byte_num" type="array">
+      <obj_property name="ElementShortName">data_byte_num[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_byte_num[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/data_cnt" type="array">
+      <obj_property name="ElementShortName">data_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_cnt[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/rec_en_cnt" type="array">
+      <obj_property name="ElementShortName">rec_en_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rec_en_cnt[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/crc_data_sum" type="array">
+      <obj_property name="ElementShortName">crc_data_sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">crc_data_sum[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/rx_done_t" type="logic">
+      <obj_property name="ElementShortName">rx_done_t</obj_property>
+      <obj_property name="ObjectShortName">rx_done_t</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/rec_data_crc" type="array">
+      <obj_property name="ElementShortName">rec_data_crc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rec_data_crc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/BOARD_MAC" type="array">
+      <obj_property name="ElementShortName">BOARD_MAC[47:0]</obj_property>
+      <obj_property name="ObjectShortName">BOARD_MAC[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/BOARD_IP" type="array">
+      <obj_property name="ElementShortName">BOARD_IP[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BOARD_IP[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/st_idle" type="array">
+      <obj_property name="ElementShortName">st_idle[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_idle[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/st_preamble" type="array">
+      <obj_property name="ElementShortName">st_preamble[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_preamble[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/st_eth_head" type="array">
+      <obj_property name="ElementShortName">st_eth_head[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_eth_head[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/st_ip_head" type="array">
+      <obj_property name="ElementShortName">st_ip_head[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_ip_head[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/st_udp_head" type="array">
+      <obj_property name="ElementShortName">st_udp_head[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_udp_head[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/st_rx_data" type="array">
+      <obj_property name="ElementShortName">st_rx_data[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_rx_data[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/st_rx_end" type="array">
+      <obj_property name="ElementShortName">st_rx_end[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_rx_end[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/st_rx_crc" type="array">
+      <obj_property name="ElementShortName">st_rx_crc[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_rx_crc[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/ETH_TYPE" type="array">
+      <obj_property name="ElementShortName">ETH_TYPE[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ETH_TYPE[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_rx/rec_data_ready" type="logic">
+      <obj_property name="ElementShortName">rec_data_ready</obj_property>
+      <obj_property name="ObjectShortName">rec_data_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/fifo_write_ready" type="logic">
+      <obj_property name="ElementShortName">fifo_write_ready</obj_property>
+      <obj_property name="ObjectShortName">fifo_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/rd_data_count" type="array">
+      <obj_property name="ElementShortName">rd_data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_count[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/st_done" type="logic">
+      <obj_property name="ElementShortName">st_done</obj_property>
+      <obj_property name="ObjectShortName">st_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/cur_state" type="array">
+      <obj_property name="ElementShortName">cur_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/DATA_NUMBER_32" type="array">
+      <obj_property name="ElementShortName">DATA_NUMBER_32[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_NUMBER_32[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FRC/U_F_W/wr_data_count" type="array">
+      <obj_property name="ElementShortName">wr_data_count[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_count[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/count_read_valid" type="logic">
+      <obj_property name="ElementShortName">count_read_valid</obj_property>
+      <obj_property name="ObjectShortName">count_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/signa_write_ready" type="logic">
+      <obj_property name="ElementShortName">signa_write_ready</obj_property>
+      <obj_property name="ObjectShortName">signa_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/signa_write_valid" type="logic">
+      <obj_property name="ElementShortName">signa_write_valid</obj_property>
+      <obj_property name="ObjectShortName">signa_write_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/signa_write_data" type="logic">
+      <obj_property name="ElementShortName">signa_write_data</obj_property>
+      <obj_property name="ObjectShortName">signa_write_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/count_read_ready" type="logic">
+      <obj_property name="ElementShortName">count_read_ready</obj_property>
+      <obj_property name="ObjectShortName">count_read_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/count_read_valid" type="logic">
+      <obj_property name="ElementShortName">count_read_valid</obj_property>
+      <obj_property name="ObjectShortName">count_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/count_read_data" type="array">
+      <obj_property name="ElementShortName">count_read_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_read_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/flg" type="logic">
+      <obj_property name="ElementShortName">flg</obj_property>
+      <obj_property name="ObjectShortName">flg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/U_SEDD/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/U_SEDD/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/U_SEDD/a" type="logic">
+      <obj_property name="ElementShortName">a</obj_property>
+      <obj_property name="ObjectShortName">a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/U_SEDD/flg" type="logic">
+      <obj_property name="ElementShortName">flg</obj_property>
+      <obj_property name="ObjectShortName">flg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/U_SEDD/a1" type="logic">
+      <obj_property name="ElementShortName">a1</obj_property>
+      <obj_property name="ObjectShortName">a1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/U_SEDD/a2" type="logic">
+      <obj_property name="ElementShortName">a2</obj_property>
+      <obj_property name="ObjectShortName">a2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/encode0_read_data_8" type="array">
+      <obj_property name="ElementShortName">encode0_read_data_8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">encode0_read_data_8[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ENCODE/encode0_write_data_8" type="array">
+      <obj_property name="ElementShortName">encode0_write_data_8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">encode0_write_data_8[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/wr_clk" type="logic">
+      <obj_property name="ElementShortName">wr_clk</obj_property>
+      <obj_property name="ObjectShortName">wr_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/rd_clk" type="logic">
+      <obj_property name="ElementShortName">rd_clk</obj_property>
+      <obj_property name="ObjectShortName">rd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/din" type="array">
+      <obj_property name="ElementShortName">din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/dout" type="array">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/almost_full" type="logic">
+      <obj_property name="ElementShortName">almost_full</obj_property>
+      <obj_property name="ObjectShortName">almost_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/almost_empty" type="logic">
+      <obj_property name="ElementShortName">almost_empty</obj_property>
+      <obj_property name="ObjectShortName">almost_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/rd_data_count" type="array">
+      <obj_property name="ElementShortName">rd_data_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/wr_data_count" type="array">
+      <obj_property name="ElementShortName">wr_data_count[9:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data_count[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/wr_rst_busy" type="logic">
+      <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_FSC/fifo_send_/rd_rst_busy" type="logic">
+      <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+      <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/u_rgmii_rx_tesbench/idelay_clk" type="logic">
+      <obj_property name="ElementShortName">idelay_clk</obj_property>
+      <obj_property name="ObjectShortName">idelay_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/u_rgmii_rx_tesbench/rgmii_rxc" type="logic">
+      <obj_property name="ElementShortName">rgmii_rxc</obj_property>
+      <obj_property name="ObjectShortName">rgmii_rxc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/u_rgmii_rx_tesbench/rgmii_rx_ctl" type="logic">
+      <obj_property name="ElementShortName">rgmii_rx_ctl</obj_property>
+      <obj_property name="ObjectShortName">rgmii_rx_ctl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/u_rgmii_rx_tesbench/rgmii_rxd" type="array">
+      <obj_property name="ElementShortName">rgmii_rxd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rgmii_rxd[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/u_rgmii_rx_tesbench/gmii_rx_clk" type="logic">
+      <obj_property name="ElementShortName">gmii_rx_clk</obj_property>
+      <obj_property name="ObjectShortName">gmii_rx_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/u_rgmii_rx_tesbench/gmii_rx_dv" type="logic">
+      <obj_property name="ElementShortName">gmii_rx_dv</obj_property>
+      <obj_property name="ObjectShortName">gmii_rx_dv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/u_rgmii_rx_tesbench/gmii_rxd" type="array">
+      <obj_property name="ElementShortName">gmii_rxd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gmii_rxd[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/u_rgmii_rx_tesbench/rgmii_rxc_bufg" type="logic">
+      <obj_property name="ElementShortName">rgmii_rxc_bufg</obj_property>
+      <obj_property name="ObjectShortName">rgmii_rxc_bufg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/u_rgmii_rx_tesbench/rgmii_rxc_bufio" type="logic">
+      <obj_property name="ElementShortName">rgmii_rxc_bufio</obj_property>
+      <obj_property name="ObjectShortName">rgmii_rxc_bufio</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/u_rgmii_rx_tesbench/rgmii_rxd_delay" type="array">
+      <obj_property name="ElementShortName">rgmii_rxd_delay[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rgmii_rxd_delay[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/u_rgmii_rx_tesbench/rgmii_rx_ctl_delay" type="logic">
+      <obj_property name="ElementShortName">rgmii_rx_ctl_delay</obj_property>
+      <obj_property name="ObjectShortName">rgmii_rx_ctl_delay</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/u_rgmii_rx_tesbench/gmii_rxdv_t" type="array">
+      <obj_property name="ElementShortName">gmii_rxdv_t[1:0]</obj_property>
+      <obj_property name="ObjectShortName">gmii_rxdv_t[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/u_rgmii_rx_tesbench/IDELAY_VALUE" type="array">
+      <obj_property name="ElementShortName">IDELAY_VALUE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IDELAY_VALUE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/u_gmii_to_rgmii_up/gmii_tx_clk" type="logic">
+      <obj_property name="ElementShortName">gmii_tx_clk</obj_property>
+      <obj_property name="ObjectShortName">gmii_tx_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/u_gmii_to_rgmii_up/gmii_tx_en" type="logic">
+      <obj_property name="ElementShortName">gmii_tx_en</obj_property>
+      <obj_property name="ObjectShortName">gmii_tx_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/u_gmii_to_rgmii_up/gmii_txd" type="array">
+      <obj_property name="ElementShortName">gmii_txd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gmii_txd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/count_read_data" type="array">
+      <obj_property name="ElementShortName">count_read_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_read_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/signa_write_ready" type="logic">
+      <obj_property name="ElementShortName">signa_write_ready</obj_property>
+      <obj_property name="ObjectShortName">signa_write_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/signa_write_data" type="logic">
+      <obj_property name="ElementShortName">signa_write_data</obj_property>
+      <obj_property name="ObjectShortName">signa_write_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/count_read_ready" type="logic">
+      <obj_property name="ElementShortName">count_read_ready</obj_property>
+      <obj_property name="ObjectShortName">count_read_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/flg" type="logic">
+      <obj_property name="ElementShortName">flg</obj_property>
+      <obj_property name="ObjectShortName">flg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/signa_write_valid" type="logic">
+      <obj_property name="ElementShortName">signa_write_valid</obj_property>
+      <obj_property name="ObjectShortName">signa_write_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/count_read_valid" type="logic">
+      <obj_property name="ElementShortName">count_read_valid</obj_property>
+      <obj_property name="ObjectShortName">count_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_WC/count_read_data" type="array">
+      <obj_property name="ElementShortName">count_read_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count_read_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/ad_read_ready" type="logic">
+      <obj_property name="ElementShortName">ad_read_ready</obj_property>
+      <obj_property name="ObjectShortName">ad_read_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/ad_read_valid" type="logic">
+      <obj_property name="ElementShortName">ad_read_valid</obj_property>
+      <obj_property name="ObjectShortName">ad_read_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/ad_read_data" type="array">
+      <obj_property name="ElementShortName">ad_read_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ad_read_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/ad0_write_clk" type="logic">
+      <obj_property name="ElementShortName">ad0_write_clk</obj_property>
+      <obj_property name="ObjectShortName">ad0_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/ad0_write_data" type="array">
+      <obj_property name="ElementShortName">ad0_write_data[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ad0_write_data[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/ad0_write_oe" type="logic">
+      <obj_property name="ElementShortName">ad0_write_oe</obj_property>
+      <obj_property name="ObjectShortName">ad0_write_oe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/ad1_write_clk" type="logic">
+      <obj_property name="ElementShortName">ad1_write_clk</obj_property>
+      <obj_property name="ObjectShortName">ad1_write_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/ad1_write_data" type="array">
+      <obj_property name="ElementShortName">ad1_write_data[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ad1_write_data[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/ad1_write_oe" type="logic">
+      <obj_property name="ElementShortName">ad1_write_oe</obj_property>
+      <obj_property name="ObjectShortName">ad1_write_oe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/cur_state" type="array">
+      <obj_property name="ElementShortName">cur_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/st_done" type="logic">
+      <obj_property name="ElementShortName">st_done</obj_property>
+      <obj_property name="ObjectShortName">st_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/cnt1" type="logic">
+      <obj_property name="ElementShortName">cnt1</obj_property>
+      <obj_property name="ObjectShortName">cnt1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/cnt3" type="array">
+      <obj_property name="ElementShortName">cnt3[9:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt3[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/FREE" type="array">
+      <obj_property name="ElementShortName">FREE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">FREE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/DELY" type="array">
+      <obj_property name="ElementShortName">DELY[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DELY[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ADDA/AD_SAMPLE" type="array">
+      <obj_property name="ElementShortName">AD_SAMPLE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">AD_SAMPLE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_SST/source_read_adress" type="array">
+      <obj_property name="ElementShortName">source_read_adress[8:0]</obj_property>
+      <obj_property name="ObjectShortName">source_read_adress[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/tx_start_en" type="logic">
+      <obj_property name="ElementShortName">tx_start_en</obj_property>
+      <obj_property name="ObjectShortName">tx_start_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/tx_data" type="array">
+      <obj_property name="ElementShortName">tx_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/des_mac" type="array">
+      <obj_property name="ElementShortName">des_mac[47:0]</obj_property>
+      <obj_property name="ObjectShortName">des_mac[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/des_ip" type="array">
+      <obj_property name="ElementShortName">des_ip[31:0]</obj_property>
+      <obj_property name="ObjectShortName">des_ip[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/crc_data" type="array">
+      <obj_property name="ElementShortName">crc_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">crc_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/crc_next" type="array">
+      <obj_property name="ElementShortName">crc_next[7:0]</obj_property>
+      <obj_property name="ObjectShortName">crc_next[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/tx_done" type="logic">
+      <obj_property name="ElementShortName">tx_done</obj_property>
+      <obj_property name="ObjectShortName">tx_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/tx_req" type="logic">
+      <obj_property name="ElementShortName">tx_req</obj_property>
+      <obj_property name="ObjectShortName">tx_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/gmii_tx_en" type="logic">
+      <obj_property name="ElementShortName">gmii_tx_en</obj_property>
+      <obj_property name="ObjectShortName">gmii_tx_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/gmii_txd" type="array">
+      <obj_property name="ElementShortName">gmii_txd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gmii_txd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/crc_en" type="logic">
+      <obj_property name="ElementShortName">crc_en</obj_property>
+      <obj_property name="ObjectShortName">crc_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/crc_clr" type="logic">
+      <obj_property name="ElementShortName">crc_clr</obj_property>
+      <obj_property name="ObjectShortName">crc_clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/cur_state" type="array">
+      <obj_property name="ElementShortName">cur_state[6:0]</obj_property>
+      <obj_property name="ObjectShortName">cur_state[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[6:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/preamble" type="array">
+      <obj_property name="ElementShortName">preamble[7:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">preamble[7:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/eth_head" type="array">
+      <obj_property name="ElementShortName">eth_head[13:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_head[13:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/ip_head" type="array">
+      <obj_property name="ElementShortName">ip_head[6:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">ip_head[6:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/start_en_d0" type="logic">
+      <obj_property name="ElementShortName">start_en_d0</obj_property>
+      <obj_property name="ObjectShortName">start_en_d0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/start_en_d1" type="logic">
+      <obj_property name="ElementShortName">start_en_d1</obj_property>
+      <obj_property name="ObjectShortName">start_en_d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/tx_data_num" type="array">
+      <obj_property name="ElementShortName">tx_data_num[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data_num[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/total_num" type="array">
+      <obj_property name="ElementShortName">total_num[15:0]</obj_property>
+      <obj_property name="ObjectShortName">total_num[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/trig_tx_en" type="logic">
+      <obj_property name="ElementShortName">trig_tx_en</obj_property>
+      <obj_property name="ObjectShortName">trig_tx_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/udp_num" type="array">
+      <obj_property name="ElementShortName">udp_num[15:0]</obj_property>
+      <obj_property name="ObjectShortName">udp_num[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/skip_en" type="logic">
+      <obj_property name="ElementShortName">skip_en</obj_property>
+      <obj_property name="ObjectShortName">skip_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/check_buffer" type="array">
+      <obj_property name="ElementShortName">check_buffer[31:0]</obj_property>
+      <obj_property name="ObjectShortName">check_buffer[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/tx_bit_sel" type="array">
+      <obj_property name="ElementShortName">tx_bit_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_bit_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/data_cnt" type="array">
+      <obj_property name="ElementShortName">data_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_cnt[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/tx_done_t" type="logic">
+      <obj_property name="ElementShortName">tx_done_t</obj_property>
+      <obj_property name="ObjectShortName">tx_done_t</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/real_add_cnt" type="array">
+      <obj_property name="ElementShortName">real_add_cnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">real_add_cnt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/pos_start_en" type="logic">
+      <obj_property name="ElementShortName">pos_start_en</obj_property>
+      <obj_property name="ObjectShortName">pos_start_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/real_tx_data_num" type="array">
+      <obj_property name="ElementShortName">real_tx_data_num[15:0]</obj_property>
+      <obj_property name="ObjectShortName">real_tx_data_num[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/BOARD_MAC" type="array">
+      <obj_property name="ElementShortName">BOARD_MAC[47:0]</obj_property>
+      <obj_property name="ObjectShortName">BOARD_MAC[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/BOARD_IP" type="array">
+      <obj_property name="ElementShortName">BOARD_IP[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BOARD_IP[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/DES_MAC" type="array">
+      <obj_property name="ElementShortName">DES_MAC[47:0]</obj_property>
+      <obj_property name="ObjectShortName">DES_MAC[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/DES_IP" type="array">
+      <obj_property name="ElementShortName">DES_IP[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DES_IP[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/DATA_SEND_NUMBER_8" type="array">
+      <obj_property name="ElementShortName">DATA_SEND_NUMBER_8[14:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_SEND_NUMBER_8[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/st_idle" type="array">
+      <obj_property name="ElementShortName">st_idle[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_idle[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/st_check_sum" type="array">
+      <obj_property name="ElementShortName">st_check_sum[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_check_sum[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/st_preamble" type="array">
+      <obj_property name="ElementShortName">st_preamble[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_preamble[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/st_eth_head" type="array">
+      <obj_property name="ElementShortName">st_eth_head[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_eth_head[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/st_ip_head" type="array">
+      <obj_property name="ElementShortName">st_ip_head[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_ip_head[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/st_tx_data" type="array">
+      <obj_property name="ElementShortName">st_tx_data[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_tx_data[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/st_crc" type="array">
+      <obj_property name="ElementShortName">st_crc[6:0]</obj_property>
+      <obj_property name="ObjectShortName">st_crc[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/ETH_TYPE" type="array">
+      <obj_property name="ElementShortName">ETH_TYPE[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ETH_TYPE[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CS_TESBENCH/U_CS_TOP/U_ETH/U_ETHTOP/u_udp/u_udp_tx/MIN_DATA_NUM" type="array">
+      <obj_property name="ElementShortName">MIN_DATA_NUM[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MIN_DATA_NUM[15:0]</obj_property>
+   </wvobject>
+</wave_config>

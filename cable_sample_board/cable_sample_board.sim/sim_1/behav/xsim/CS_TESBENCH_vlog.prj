@@ -1,0 +1,48 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../cable_sample_board.srcs/sources_1/ip/clk_wiz_0" \
+"../../../../cable_sample_board.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../cable_sample_board.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../cable_sample_board.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../cable_sample_board.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" \
+"../../../../cable_sample_board.srcs/sources_1/ip/ila_0/sim/ila_0.v" \
+"../../../../cable_sample_board.srcs/sources_1/ip/fifo_generator_1/sim/fifo_generator_1.v" \
+"../../../../cable_sample_board.srcs/sources_1/imports/new/AC.v" \
+"../../../../cable_sample_board.srcs/sources_1/new/ADDA.v" \
+"../../../../cable_sample_board.srcs/sources_1/new/DECDDE.v" \
+"../../../../cable_sample_board.srcs/sources_1/imports/new/ED.v" \
+"../../../../cable_sample_board.srcs/sources_1/new/ENCODE.v" \
+"../../../../cable_sample_board.srcs/sources_1/new/ETH_TOP.v" \
+"../../../../cable_sample_board.srcs/sources_1/new/F_C.v" \
+"../../../../cable_sample_board.srcs/sources_1/new/F_R.v" \
+"../../../../cable_sample_board.srcs/sources_1/new/F_S_R.v" \
+"../../../../cable_sample_board.srcs/sources_1/new/F_S_W.v" \
+"../../../../cable_sample_board.srcs/sources_1/new/F_W.v" \
+"../../../../cable_sample_board.srcs/sources_1/imports/new/SST.v" \
+"../../../../cable_sample_board.srcs/sources_1/new/TLD_8.v" \
+"../../../../cable_sample_board.srcs/sources_1/imports/new/TLD_TWO.v" \
+"../../../../cable_sample_board.srcs/sources_1/imports/new/WC.v" \
+"../../../../cable_sample_board.srcs/sources_1/imports/sours/arp.v" \
+"../../../../cable_sample_board.srcs/sources_1/imports/sours/arp_rx.v" \
+"../../../../cable_sample_board.srcs/sources_1/imports/sours/arp_tx.v" \
+"../../../../cable_sample_board.srcs/sources_1/imports/sours/crc32_d8.v" \
+"../../../../cable_sample_board.srcs/sources_1/imports/sours/eth_communicate.v" \
+"../../../../cable_sample_board.srcs/sources_1/imports/sours/eth_ctrl.v" \
+"../../../../cable_sample_board.srcs/sources_1/imports/sours/eth_top.v" \
+"../../../../cable_sample_board.srcs/sources_1/imports/sours/fifo_recive_contral.v" \
+"../../../../cable_sample_board.srcs/sources_1/imports/sours/fifo_send_contral.v" \
+"../../../../cable_sample_board.srcs/sources_1/imports/sours/gmii_to_rgmii.v" \
+"../../../../cable_sample_board.srcs/sim_1/new/gmii_to_rgmii_up.v" \
+"../../../../cable_sample_board.srcs/sources_1/imports/sours/rgmii_rx.v" \
+"../../../../cable_sample_board.srcs/sim_1/new/rgmii_rx_tesbench.v" \
+"../../../../cable_sample_board.srcs/sources_1/imports/sours/rgmii_tx.v" \
+"../../../../cable_sample_board.srcs/sources_1/imports/sours/udp.v" \
+"../../../../cable_sample_board.srcs/sources_1/imports/sours/udp_rx.v" \
+"../../../../cable_sample_board.srcs/sources_1/imports/sours/udp_tx.v" \
+"../../../../cable_sample_board.srcs/sources_1/imports/sours/width_32_to_8.v" \
+"../../../../cable_sample_board.srcs/sim_1/new/ETH_TESBENCH.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-2" LaunchTime="1749567982">
+  <File Type="PA-TCL" Name="CS_TOP.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="CS_TOP_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="CS_TOP_reports.tcl"/>
+  <File Type="RDS-RDS" Name="CS_TOP.vds"/>
+  <File Type="RDS-UTIL" Name="CS_TOP_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="CS_TOP_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="CS_TOP.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="CS_TOP_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="CS_TOP_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/AC.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA_hub/signal_source/SINGNAL_SOURCE/SINGNAL_SOURCE.srcs/sources_1/new/AC.v"/>
+        <Attr Name="ImportTime" Val="1695781120"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ADDA.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CABLE_SAMPLE/cable_sample/cable_sample.srcs/sources_1/new/ADDA.v"/>
+        <Attr Name="ImportTime" Val="1696224746"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DECDDE.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CABLE_SAMPLE/cable_sample/cable_sample.srcs/sources_1/new/DECDDE.v"/>
+        <Attr Name="ImportTime" Val="1696154747"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/ED.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA_hub/signal_source/SINGNAL_SOURCE/SINGNAL_SOURCE.srcs/sources_1/new/ED.v"/>
+        <Attr Name="ImportTime" Val="1695778636"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ENCODE.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CABLE_SAMPLE/cable_sample/cable_sample.srcs/sources_1/new/ENCODE.v"/>
+        <Attr Name="ImportTime" Val="1696223204"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/F_C.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA_hub/eth_transform/eth_transform/eth_transform.srcs/sources_1/new/F_C.v"/>
+        <Attr Name="ImportTime" Val="1695699224"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/F_R.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA_hub/eth_transform/eth_transform/eth_transform.srcs/sources_1/new/F_R.v"/>
+        <Attr Name="ImportTime" Val="1695625628"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/F_S_R.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA_hub/eth_transform/eth_transform/eth_transform.srcs/sources_1/new/F_S_R.v"/>
+        <Attr Name="ImportTime" Val="1695631278"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/F_S_W.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA_hub/eth_transform/eth_transform/eth_transform.srcs/sources_1/new/F_S_W.v"/>
+        <Attr Name="ImportTime" Val="1695630356"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/F_W.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA_hub/eth_transform/eth_transform/eth_transform.srcs/sources_1/new/F_W.v"/>
+        <Attr Name="ImportTime" Val="1695628724"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/SST.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA_hub/signal_source/SINGNAL_SOURCE/SINGNAL_SOURCE.srcs/sources_1/new/SST.v"/>
+        <Attr Name="ImportTime" Val="1695784193"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TLD_8.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA_hub/eth_transform/eth_transform/eth_transform.srcs/sources_1/new/TLD_8.v"/>
+        <Attr Name="ImportTime" Val="1695696175"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/TLD_TWO.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA_hub/signal_source/SINGNAL_SOURCE/SINGNAL_SOURCE.srcs/sources_1/new/TLD_TWO.v"/>
+        <Attr Name="ImportTime" Val="1695696108"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/WC.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA_hub/signal_source/SINGNAL_SOURCE/SINGNAL_SOURCE.srcs/sources_1/new/WC.v"/>
+        <Attr Name="ImportTime" Val="1695784833"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sours/arp.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../eth_fixed_mode/eth_fixed_mode.srcs/sources_1/imports/sours/arp.v"/>
+        <Attr Name="ImportTime" Val="1627801386"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sours/arp_rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../eth_fixed_mode/eth_fixed_mode.srcs/sources_1/imports/sours/arp_rx.v"/>
+        <Attr Name="ImportTime" Val="1627801386"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sours/arp_tx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../eth_fixed_mode/eth_fixed_mode.srcs/sources_1/imports/sours/arp_tx.v"/>
+        <Attr Name="ImportTime" Val="1627801386"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sours/crc32_d8.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../eth_fixed_mode/eth_fixed_mode.srcs/sources_1/imports/sours/crc32_d8.v"/>
+        <Attr Name="ImportTime" Val="1627801386"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sours/eth_communicate.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../eth_fixed_mode/eth_fixed_mode.srcs/sources_1/imports/sours/eth_communicate.v"/>
+        <Attr Name="ImportTime" Val="1693989438"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sours/eth_ctrl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../eth_fixed_mode/eth_fixed_mode.srcs/sources_1/imports/sours/eth_ctrl.v"/>
+        <Attr Name="ImportTime" Val="1692802884"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sours/eth_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../eth_fixed_mode/eth_fixed_mode.srcs/sources_1/imports/sours/eth_top.v"/>
+        <Attr Name="ImportTime" Val="1692802892"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sours/fifo_recive_contral.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../eth_fixed_mode/eth_fixed_mode.srcs/sources_1/imports/sours/fifo_recive_contral.v"/>
+        <Attr Name="ImportTime" Val="1694680899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sours/fifo_send_contral.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../eth_fixed_mode/eth_fixed_mode.srcs/sources_1/imports/sours/fifo_send_contral.v"/>
+        <Attr Name="ImportTime" Val="1694667042"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sours/gmii_to_rgmii.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../eth_fixed_mode/eth_fixed_mode.srcs/sources_1/imports/sours/gmii_to_rgmii.v"/>
+        <Attr Name="ImportTime" Val="1691824884"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sours/rgmii_rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../eth_fixed_mode/eth_fixed_mode.srcs/sources_1/imports/sours/rgmii_rx.v"/>
+        <Attr Name="ImportTime" Val="1694671883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sours/rgmii_tx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../eth_fixed_mode/eth_fixed_mode.srcs/sources_1/imports/sours/rgmii_tx.v"/>
+        <Attr Name="ImportTime" Val="1582705229"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sours/udp.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../eth_fixed_mode/eth_fixed_mode.srcs/sources_1/imports/sours/udp.v"/>
+        <Attr Name="ImportTime" Val="1691460637"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sours/udp_rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../eth_fixed_mode/eth_fixed_mode.srcs/sources_1/imports/sours/udp_rx.v"/>
+        <Attr Name="ImportTime" Val="1691460278"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sours/udp_tx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../eth_fixed_mode/eth_fixed_mode.srcs/sources_1/imports/sours/udp_tx.v"/>
+        <Attr Name="ImportTime" Val="1684663573"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sours/width_32_to_8.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../eth_fixed_mode/eth_fixed_mode.srcs/sources_1/imports/sours/width_32_to_8.v"/>
+        <Attr Name="ImportTime" Val="1694176371"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ETH_TOP.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../FPGA_hub/eth_transform/eth_transform/eth_transform.srcs/sources_1/new/ETH_TOP.v"/>
+        <Attr Name="ImportTime" Val="1695365754"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CABLE_SAMPLE/rom50_100x8b.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CABLE_SAMPLE/rom50_100x8b.coe"/>
+        <Attr Name="ImportTime" Val="1696159175"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../CABLE_SAMPLE/FDR.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="CS_TOP"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/xcd.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../CABLE_SAMPLE/cable_sample/cable_sample.srcs/constrs_1/new/xcd.xdc"/>
+        <Attr Name="ImportTime" Val="1696647861"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="fifo_generator_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="fifo_generator_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>
