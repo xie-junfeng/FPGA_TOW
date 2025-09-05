@@ -1,0 +1,373 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Jun 18 10:15:57 2025
+| Host         : xie running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbv484-3
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'vio_ADDA'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of vio_ADDA (xilinx.com:ip:vio:3.0) from (Rev. 20) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Jun 18 10:15:56 2025
+| Host         : xie running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbv484-3
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'vio_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of vio_0 (xilinx.com:ip:vio:3.0) from (Rev. 20) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Jun 18 10:15:54 2025
+| Host         : xie running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbv484-3
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'square_12_12'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of square_12_12 (xilinx.com:ip:mult_gen:12.0) from (Rev. 15) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Jun 18 10:15:54 2025
+| Host         : xie running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbv484-3
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'sqrt24'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of sqrt24 (xilinx.com:ip:cordic:6.0) from (Rev. 15) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Jun 18 10:15:54 2025
+| Host         : xie running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbv484-3
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dds_compiler_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dds_compiler_0 (xilinx.com:ip:dds_compiler:6.0) from (Rev. 18) to (Rev. 23)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Jun 18 10:15:53 2025
+| Host         : xie running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbv484-3
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'clk_wiz_AD'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of clk_wiz_AD (xilinx.com:ip:clk_wiz:6.0) from (Rev. 3) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Jun 18 10:15:51 2025
+| Host         : xie running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbv484-3
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'clk_wiz_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of clk_wiz_0 (xilinx.com:ip:clk_wiz:6.0) from (Rev. 3) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Jun 18 10:15:50 2025
+| Host         : xie running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbv484-3
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'blk_mem_gen_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of blk_mem_gen_0 (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 3) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Jun 18 10:15:49 2025
+| Host         : xie running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbv484-3
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'VIO_U_XND4351'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of VIO_U_XND4351 (xilinx.com:ip:vio:3.0) from (Rev. 20) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Jun 18 10:15:48 2025
+| Host         : xie running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbv484-3
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'VIO_UART_DEMO'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of VIO_UART_DEMO (xilinx.com:ip:vio:3.0) from (Rev. 20) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Jun 18 10:15:47 2025
+| Host         : xie running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbv484-3
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'VIO_UART'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of VIO_UART (xilinx.com:ip:vio:3.0) from (Rev. 20) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Jun 18 10:15:46 2025
+| Host         : xie running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbv484-3
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'VIO_DA'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of VIO_DA (xilinx.com:ip:vio:3.0) from (Rev. 20) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Jun 18 10:15:45 2025
+| Host         : xie running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbv484-3
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'VIO_AD_DELY'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of VIO_AD_DELY (xilinx.com:ip:vio:3.0) from (Rev. 20) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Jun 18 10:15:43 2025
+| Host         : xie running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbv484-3
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'VIO_AD'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of VIO_AD (xilinx.com:ip:vio:3.0) from (Rev. 20) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Jun 18 10:15:42 2025
+| Host         : xie running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbv484-3
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'RAM_dual_8096'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of RAM_dual_8096 (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 3) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Jun 18 10:15:41 2025
+| Host         : xie running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbv484-3
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CLK_GEN'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CLK_GEN (xilinx.com:ip:clk_wiz:6.0) from (Rev. 3) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue May 20 09:36:51 2025
+| Host         : DESKTOP-VP1BO8E running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbv484-3
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'vio_start'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of vio_start (xilinx.com:ip:vio:3.0 (Rev. 20)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Apr 29 09:59:09 2025
+| Host         : DESKTOP-VP1BO8E running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbv484-3
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dds_compiler_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of dds_compiler_0 (xilinx.com:ip:dds_compiler:6.0 (Rev. 18)) to Vivado generation flows.
+

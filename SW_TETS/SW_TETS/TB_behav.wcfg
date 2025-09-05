@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_PID_CTL_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_PID_CTL" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="9.550001 us"></ZoomEndTime>
+      <Cursor1Time time="4.020000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="152"></NameColumnWidth>
+      <ValueColumnWidth column_width="131"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/TB_PID_CTL/pid_controller_inst/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PID_CTL/pid_controller_inst/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PID_CTL/pid_controller_inst/sig_in" type="array">
+      <obj_property name="ElementShortName">sig_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sig_in[31:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PID_CTL/pid_controller_inst/target" type="array">
+      <obj_property name="ElementShortName">target[31:0]</obj_property>
+      <obj_property name="ObjectShortName">target[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PID_CTL/pid_controller_inst/kp" type="array">
+      <obj_property name="ElementShortName">kp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">kp[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PID_CTL/pid_controller_inst/ki" type="array">
+      <obj_property name="ElementShortName">ki[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ki[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PID_CTL/pid_controller_inst/kd" type="array">
+      <obj_property name="ElementShortName">kd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">kd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PID_CTL/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PID_CTL/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PID_CTL/sig_in" type="array">
+      <obj_property name="ElementShortName">sig_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sig_in[31:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PID_CTL/target" type="array">
+      <obj_property name="ElementShortName">target[31:0]</obj_property>
+      <obj_property name="ObjectShortName">target[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PID_CTL/kp" type="array">
+      <obj_property name="ElementShortName">kp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">kp[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PID_CTL/ki" type="array">
+      <obj_property name="ElementShortName">ki[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ki[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PID_CTL/kd" type="array">
+      <obj_property name="ElementShortName">kd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">kd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PID_CTL/ctrl_out" type="array">
+      <obj_property name="ElementShortName">ctrl_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrl_out[63:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PID_CTL/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PID_CTL/txt_in" type="array">
+      <obj_property name="ElementShortName">txt_in[0:499][31:0]</obj_property>
+      <obj_property name="ObjectShortName">txt_in[0:499][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PID_CTL/txt_target" type="array">
+      <obj_property name="ElementShortName">txt_target[0:499][31:0]</obj_property>
+      <obj_property name="ObjectShortName">txt_target[0:499][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PID_CTL/count" type="array">
+      <obj_property name="ElementShortName">count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_PID_CTL/file" type="array">
+      <obj_property name="ElementShortName">file[15:0]</obj_property>
+      <obj_property name="ObjectShortName">file[15:0]</obj_property>
+   </wvobject>
+</wave_config>

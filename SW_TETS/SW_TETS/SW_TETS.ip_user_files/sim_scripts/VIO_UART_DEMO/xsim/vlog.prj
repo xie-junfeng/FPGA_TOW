@@ -1,0 +1,7 @@
+verilog xil_defaultlib  \
+"../../../../SW_TETS.gen/sim_1/ip/VIO_UART_DEMO/sim/VIO_UART_DEMO.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

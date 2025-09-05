@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../SW_TETS.gen/sim_1/ip/VIO_UART_DEMO/sim/VIO_UART_DEMO.v" \
+"../../../../SW_TETS.srcs/sim_1/imports/UART_MASTER/UART_LOOP.v" \
+"../../../../SW_TETS.srcs/sim_1/imports/UART_MASTER/UART_MASTER_FUNCTION.v" \
+"../../../../SW_TETS.srcs/sim_1/imports/UART_MASTER/UART_RX.v" \
+"../../../../SW_TETS.srcs/sim_1/imports/UART_MASTER/UART_TX.v" \
+"../../../../SW_TETS.srcs/sim_1/new/U_UART_MASTER_DRIVE.v" \
+"../../../../SW_TETS.srcs/sim_1/imports/new/UART_LOOP_TB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

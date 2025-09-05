@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Jun 18 15:12:04 2025
+# Process ID: 17016
+# Current directory: C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/clk_wiz_0_synth_1
+# Command line: vivado.exe -log clk_wiz_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_wiz_0.tcl
+# Log file: C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/clk_wiz_0_synth_1/clk_wiz_0.vds
+# Journal file: C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/clk_wiz_0_synth_1\vivado.jou
+# Running On: xie, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 42645 MB
+#-----------------------------------------------------------
+source clk_wiz_0.tcl -notrace

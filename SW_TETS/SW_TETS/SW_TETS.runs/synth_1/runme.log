@@ -1,0 +1,717 @@
+
+*** Running vivado
+    with args -log ALT_TOP.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALT_TOP.tcl
+
+
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source ALT_TOP.tcl -notrace
+create_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 489.234 ; gain = 179.023
+Command: synth_design -top ALT_TOP -part xc7a200tfbv484-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Device 21-403] Loading part xc7a200tfbv484-3
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 6248
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1412.871 ; gain = 439.945
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ALT_TOP' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:23]
+INFO: [Synth 8-6157] synthesizing module 'REST_GEN' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/REST_GEN.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'REST_GEN' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/REST_GEN.v:23]
+INFO: [Synth 8-6157] synthesizing module 'CLK_GEN' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/CLK_GEN_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'CLK_GEN' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/CLK_GEN_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'BREATHING_LIGHT' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/BREATHING_LIGHT.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'BREATHING_LIGHT' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/BREATHING_LIGHT.v:22]
+INFO: [Synth 8-6157] synthesizing module 'UART_TOP' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_TOP.v:22]
+INFO: [Synth 8-6157] synthesizing module 'VIO_UART' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/VIO_UART_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'VIO_UART' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/VIO_UART_stub.v:6]
+INFO: [Synth 8-226] default block is never used [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_TOP.v:195]
+INFO: [Synth 8-6157] synthesizing module 'UART_Receiver' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_Receiver.v:7]
+INFO: [Synth 8-6157] synthesizing module 'RS422_rx1' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/RS422_rx1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RS422_rx1' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/RS422_rx1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'UART_Receiver' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_Receiver.v:7]
+WARNING: [Synth 8-689] width (6) of port connection 'ALT_RRF_Gain' does not match port width (8) of module 'UART_Receiver' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_TOP.v:283]
+INFO: [Synth 8-6157] synthesizing module 'UART_Transmitter' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_Transmitter.v:7]
+INFO: [Synth 8-6157] synthesizing module 'Uart_tx_Init1' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/Uart_tx_Init1.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/Uart_tx_Init1.v:88]
+INFO: [Synth 8-6155] done synthesizing module 'Uart_tx_Init1' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/Uart_tx_Init1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'UART_Transmitter' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_Transmitter.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'UART_TOP' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_TOP.v:22]
+INFO: [Synth 8-6157] synthesizing module 'MWD1000L_CONFIG_INIT' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/MWD1000L_CONFIG_INIT.v:22]
+INFO: [Synth 8-6157] synthesizing module 'VIO_AD' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/VIO_AD_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'VIO_AD' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/VIO_AD_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'MWD1000L_CONFIG_INIT' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/MWD1000L_CONFIG_INIT.v:22]
+INFO: [Synth 8-6157] synthesizing module 'LTC2000_CONFIG_INIT1' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/LTC2000_CONFIG_INIT1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'VIO_DA' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/VIO_DA_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'VIO_DA' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/VIO_DA_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'LTC2000_CONFIG_INIT1' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/LTC2000_CONFIG_INIT1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SW_TOP' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/SW_TOP.v:22]
+INFO: [Synth 8-6157] synthesizing module 'vio_0' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/vio_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'vio_0' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/vio_0_stub.v:6]
+WARNING: [Synth 8-151] case item 32'b00000000000000000000000000100010 is unreachable [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/SW_TOP.v:341]
+WARNING: [Synth 8-151] case item 32'b00000000000000000000000000100001 is unreachable [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/SW_TOP.v:341]
+INFO: [Synth 8-6155] done synthesizing module 'SW_TOP' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/SW_TOP.v:22]
+WARNING: [Synth 8-689] width (7) of port connection 'ALT_RRF_Gain_U37' does not match port width (8) of module 'SW_TOP' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:419]
+WARNING: [Synth 8-689] width (7) of port connection 'ALT_TIF_Gain_U81' does not match port width (8) of module 'SW_TOP' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:420]
+WARNING: [Synth 8-689] width (7) of port connection 'ALT_RIF_Gain_U43' does not match port width (8) of module 'SW_TOP' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:421]
+INFO: [Synth 8-6157] synthesizing module 'DSA_Top' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/DSA_Top.v:21]
+INFO: [Synth 8-6157] synthesizing module 'DSA_HMC1119_SER' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/DSA_HMC1119_SER.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'DSA_HMC1119_SER' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/DSA_HMC1119_SER.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'DSA_Top' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/DSA_Top.v:21]
+INFO: [Synth 8-6157] synthesizing module 'XND4351_TOP_ADDA' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_TOP_ADDA.v:23]
+INFO: [Synth 8-6157] synthesizing module 'VIO_U_XND4351' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/VIO_U_XND4351_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'VIO_U_XND4351' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/VIO_U_XND4351_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'XND4351_SPI_MASTER_ADDA' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_SPI_MASTER_ADDA.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'XND4351_SPI_MASTER_ADDA' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_SPI_MASTER_ADDA.v:23]
+INFO: [Synth 8-6157] synthesizing module 'XND4351_SPI_FUNCTION_MASTER_ADDA' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_SPI_FUNCTION_MASTER_ADDA.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'XND4351_SPI_FUNCTION_MASTER_ADDA' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_SPI_FUNCTION_MASTER_ADDA.v:22]
+WARNING: [Synth 8-689] width (5) of port connection 'cfg_sta' does not match port width (8) of module 'XND4351_SPI_FUNCTION_MASTER_ADDA' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_TOP_ADDA.v:116]
+INFO: [Synth 8-6155] done synthesizing module 'XND4351_TOP_ADDA' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_TOP_ADDA.v:23]
+INFO: [Synth 8-6157] synthesizing module 'XND4351_TOP_LOOP' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_TOP.v:23]
+INFO: [Synth 8-6157] synthesizing module 'XND4351_SPI_MASTER_LOOP' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_SPI_MASTER.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'XND4351_SPI_MASTER_LOOP' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_SPI_MASTER.v:23]
+INFO: [Synth 8-6157] synthesizing module 'XND4351_SPI_FUNCTION_MASTER_LOOP' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_SPI_FUNCTION_MASTER.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'XND4351_SPI_FUNCTION_MASTER_LOOP' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_SPI_FUNCTION_MASTER.v:22]
+WARNING: [Synth 8-689] width (5) of port connection 'cfg_sta' does not match port width (8) of module 'XND4351_SPI_FUNCTION_MASTER_LOOP' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_TOP.v:116]
+INFO: [Synth 8-6155] done synthesizing module 'XND4351_TOP_LOOP' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_TOP.v:23]
+INFO: [Synth 8-6157] synthesizing module 'GX122_TEMPERATURE' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/GX122_TEMPERATURE.v:22]
+WARNING: [Synth 8-689] width (16) of port connection 'probe_out2' does not match port width (32) of module 'VIO_U_XND4351' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/GX122_TEMPERATURE.v:94]
+INFO: [Synth 8-6157] synthesizing module 'GX122_SPI_MASTER' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/GX122_SPI_MASTER.v:23]
+	Parameter SPI_SEND_WITH bound to: 16 - type: integer 
+	Parameter SPI_RECE_WITH bound to: 16 - type: integer 
+	Parameter CS_BEFOR_DELY bound to: 0 - type: integer 
+	Parameter CS_END_DELY bound to: 0 - type: integer 
+	Parameter CPOL bound to: 1 - type: integer 
+	Parameter CPHA bound to: 0 - type: integer 
+	Parameter MOSI_IDLE_STATE bound to: 1'bz 
+INFO: [Synth 8-6155] done synthesizing module 'GX122_SPI_MASTER' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/GX122_SPI_MASTER.v:23]
+INFO: [Synth 8-6157] synthesizing module 'GX122_SPI_FUNCTION' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/GX122_SPI_FUNCTION.v:22]
+	Parameter REG_CFG_NUM_INIT bound to: 1 - type: integer 
+	Parameter REG_CFG_NUM_WRITE_PRE0 bound to: 1 - type: integer 
+	Parameter REG_CFG_NUM_WRITE_PRE1 bound to: 1 - type: integer 
+	Parameter REG_CFG_NUM_READ_PRE0 bound to: 1 - type: integer 
+	Parameter SPI_INTERVALS1 bound to: 1000 - type: integer 
+	Parameter INITIAL_DELAY bound to: 0 - type: integer 
+	Parameter CHEAK_DATA_EN bound to: 0 - type: integer 
+	Parameter INIT_REG_EN bound to: 0 - type: integer 
+	Parameter SPI_SEND_WITH bound to: 16 - type: integer 
+	Parameter SPI_RECE_WITH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'GX122_SPI_FUNCTION' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/GX122_SPI_FUNCTION.v:22]
+WARNING: [Synth 8-689] width (5) of port connection 'cfg_sta' does not match port width (8) of module 'GX122_SPI_FUNCTION' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/GX122_TEMPERATURE.v:176]
+INFO: [Synth 8-6155] done synthesizing module 'GX122_TEMPERATURE' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/GX122_TEMPERATURE.v:22]
+INFO: [Synth 8-6157] synthesizing module 'ADDA' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA/ADDA_TOP.v:21]
+INFO: [Synth 8-6157] synthesizing module 'OVER' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/OVER.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IBUFDS' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:73646]
+	Parameter DIFF_TERM bound to: TRUE - type: string 
+	Parameter IBUF_LOW_PWR bound to: FALSE - type: string 
+	Parameter IOSTANDARD bound to: LVDS - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUFDS' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:73646]
+INFO: [Synth 8-6155] done synthesizing module 'OVER' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/OVER.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ADDA_DATA' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA_DATA.v:1]
+INFO: [Synth 8-226] default block is never used [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA_DATA.v:190]
+INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:93073]
+	Parameter IOSTANDARD bound to: LVDS_25 - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:93073]
+INFO: [Synth 8-6157] synthesizing module 'ADS5400_Sync' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA/ADS5400_Sync.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ADS5400_Sync' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA/ADS5400_Sync.v:1]
+INFO: [Synth 8-6157] synthesizing module 'VIO_AD_DELY' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/VIO_AD_DELY_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'VIO_AD_DELY' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/VIO_AD_DELY_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'ms12dl3200_intf_v1p0' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/imports/new/DATA_IN_PUT.v:31]
+INFO: [Synth 8-6157] synthesizing module 'rx_chx_1to2' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/imports/new/rx_chx_1to2.v:32]
+	Parameter LINES bound to: 12 - type: integer 
+	Parameter SIPOWD bound to: 2 - type: integer 
+	Parameter IODLYWD bound to: 5 - type: integer 
+	Parameter REF_FREQ bound to: 200.000000 - type: double 
+INFO: [Synth 8-6157] synthesizing module 'rx_sipo_1to2' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/imports/new/rx_sipo_1to2.v:31]
+	Parameter SIPOWD bound to: 2 - type: integer 
+	Parameter IODLYWD bound to: 5 - type: integer 
+	Parameter REF_FREQ bound to: 200.000000 - type: double 
+	Parameter IDELAYVAL bound to: 0 - type: integer 
+	Parameter IDELAY_TYPE bound to: VAR_LOAD - type: string 
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE2' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:75740]
+	Parameter CINVCTRL_SEL bound to: TRUE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: FALSE - type: string 
+	Parameter IDELAY_TYPE bound to: VAR_LOAD - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:75740]
+INFO: [Synth 8-6157] synthesizing module 'IDDR' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:75605]
+	Parameter DDR_CLK_EDGE bound to: OPPOSITE_EDGE - type: string 
+	Parameter INIT_Q1 bound to: 1'b0 
+	Parameter INIT_Q2 bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IDDR' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:75605]
+INFO: [Synth 8-6155] done synthesizing module 'rx_sipo_1to2' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/imports/new/rx_sipo_1to2.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'rx_chx_1to2' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/imports/new/rx_chx_1to2.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'ms12dl3200_intf_v1p0' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/imports/new/DATA_IN_PUT.v:31]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/clk_wiz_0_stub.v:6]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA_DATA.v:345]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_AD' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/clk_wiz_AD_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_AD' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/clk_wiz_AD_stub.v:6]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA_DATA.v:371]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYCTRL' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:75727]
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYCTRL' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:75727]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'vio_ADDA' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/vio_ADDA_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'vio_ADDA' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/vio_ADDA_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DDS' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/DDS.v:22]
+INFO: [Synth 8-638] synthesizing module 'dds_compiler_0' [c:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.gen/sources_1/ip/dds_compiler_0/synth/dds_compiler_0.vhd:70]
+WARNING: [Synth 8-5640] Port 'debug_axi_pinc_in' is missing in component declaration [c:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.gen/sources_1/ip/dds_compiler_0/synth/dds_compiler_0.vhd:73]
+WARNING: [Synth 8-5640] Port 'debug_axi_poff_in' is missing in component declaration [c:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.gen/sources_1/ip/dds_compiler_0/synth/dds_compiler_0.vhd:73]
+WARNING: [Synth 8-5640] Port 'debug_axi_resync_in' is missing in component declaration [c:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.gen/sources_1/ip/dds_compiler_0/synth/dds_compiler_0.vhd:73]
+WARNING: [Synth 8-5640] Port 'debug_axi_chan_in' is missing in component declaration [c:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.gen/sources_1/ip/dds_compiler_0/synth/dds_compiler_0.vhd:73]
+WARNING: [Synth 8-5640] Port 'debug_core_nd' is missing in component declaration [c:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.gen/sources_1/ip/dds_compiler_0/synth/dds_compiler_0.vhd:73]
+WARNING: [Synth 8-5640] Port 'debug_phase' is missing in component declaration [c:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.gen/sources_1/ip/dds_compiler_0/synth/dds_compiler_0.vhd:73]
+WARNING: [Synth 8-5640] Port 'debug_phase_nd' is missing in component declaration [c:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.gen/sources_1/ip/dds_compiler_0/synth/dds_compiler_0.vhd:73]
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_MODE_OF_OPERATION bound to: 0 - type: integer 
+	Parameter C_MODULUS bound to: 9 - type: integer 
+	Parameter C_ACCUMULATOR_WIDTH bound to: 16 - type: integer 
+	Parameter C_CHANNELS bound to: 1 - type: integer 
+	Parameter C_HAS_PHASE_OUT bound to: 0 - type: integer 
+	Parameter C_HAS_PHASEGEN bound to: 1 - type: integer 
+	Parameter C_HAS_SINCOS bound to: 1 - type: integer 
+	Parameter C_LATENCY bound to: 5 - type: integer 
+	Parameter C_MEM_TYPE bound to: 1 - type: integer 
+	Parameter C_NEGATIVE_COSINE bound to: 0 - type: integer 
+	Parameter C_NEGATIVE_SINE bound to: 0 - type: integer 
+	Parameter C_NOISE_SHAPING bound to: 0 - type: integer 
+	Parameter C_OUTPUTS_REQUIRED bound to: 0 - type: integer 
+	Parameter C_OUTPUT_FORM bound to: 0 - type: integer 
+	Parameter C_OUTPUT_WIDTH bound to: 11 - type: integer 
+	Parameter C_PHASE_ANGLE_WIDTH bound to: 11 - type: integer 
+	Parameter C_PHASE_INCREMENT bound to: 1 - type: integer 
+	Parameter C_PHASE_INCREMENT_VALUE bound to: 1111111111111111,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 - type: string 
+	Parameter C_RESYNC bound to: 0 - type: integer 
+	Parameter C_PHASE_OFFSET bound to: 1 - type: integer 
+	Parameter C_PHASE_OFFSET_VALUE bound to: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 - type: string 
+	Parameter C_OPTIMISE_GOAL bound to: 0 - type: integer 
+	Parameter C_USE_DSP48 bound to: 0 - type: integer 
+	Parameter C_POR_MODE bound to: 0 - type: integer 
+	Parameter C_AMPLITUDE bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 0 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 1 - type: integer 
+	Parameter C_HAS_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_TREADY bound to: 0 - type: integer 
+	Parameter C_HAS_S_PHASE bound to: 0 - type: integer 
+	Parameter C_S_PHASE_TDATA_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_PHASE_HAS_TUSER bound to: 0 - type: integer 
+	Parameter C_S_PHASE_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_HAS_S_CONFIG bound to: 1 - type: integer 
+	Parameter C_S_CONFIG_SYNC_MODE bound to: 0 - type: integer 
+	Parameter C_S_CONFIG_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_HAS_M_DATA bound to: 1 - type: integer 
+	Parameter C_M_DATA_TDATA_WIDTH bound to: 16 - type: integer 
+	Parameter C_M_DATA_HAS_TUSER bound to: 0 - type: integer 
+	Parameter C_M_DATA_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_HAS_M_PHASE bound to: 0 - type: integer 
+	Parameter C_M_PHASE_TDATA_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_PHASE_HAS_TUSER bound to: 0 - type: integer 
+	Parameter C_M_PHASE_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_DEBUG_INTERFACE bound to: 0 - type: integer 
+	Parameter C_CHAN_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'dds_compiler_v6_0_23' declared at 'c:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.gen/sources_1/ip/dds_compiler_0/hdl/dds_compiler_v6_0_vh_rfs.vhd:46995' bound to instance 'U0' of component 'dds_compiler_v6_0_23' [c:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.gen/sources_1/ip/dds_compiler_0/synth/dds_compiler_0.vhd:177]
+INFO: [Synth 8-256] done synthesizing module 'dds_compiler_0' (0#1) [c:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.gen/sources_1/ip/dds_compiler_0/synth/dds_compiler_0.vhd:70]
+WARNING: [Synth 8-689] width (11) of port connection 'm_axis_data_tdata' does not match port width (16) of module 'dds_compiler_0' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/DDS.v:65]
+WARNING: [Synth 8-689] width (11) of port connection 'm_axis_data_tdata' does not match port width (16) of module 'dds_compiler_0' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/DDS.v:65]
+WARNING: [Synth 8-689] width (11) of port connection 'm_axis_data_tdata' does not match port width (16) of module 'dds_compiler_0' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/DDS.v:65]
+WARNING: [Synth 8-689] width (11) of port connection 'm_axis_data_tdata' does not match port width (16) of module 'dds_compiler_0' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/DDS.v:65]
+INFO: [Synth 8-6155] done synthesizing module 'DDS' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/DDS.v:22]
+INFO: [Synth 8-226] default block is never used [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA_DATA.v:594]
+INFO: [Synth 8-6157] synthesizing module 'ODDR_TOP' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA/ODDR.v:4]
+INFO: [Synth 8-6157] synthesizing module 'ODDR' [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:96703]
+	Parameter DDR_CLK_EDGE bound to: SAME_EDGE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'ODDR' (0#1) [C:/Xilinx/Vivado/2023.2/scripts/rt/data/unisim_comp.v:96703]
+INFO: [Synth 8-6155] done synthesizing module 'ODDR_TOP' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA/ODDR.v:4]
+INFO: [Synth 8-6157] synthesizing module 'ALT_FFT_Cache' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA/ALT_FFT_Cache.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALT_FFT_Cache' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA/ALT_FFT_Cache.v:23]
+INFO: [Synth 8-6157] synthesizing module 'FFT_TOP' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_TOP.v:23]
+	Parameter FFT_DATA_WITDH bound to: 24 - type: integer 
+	Parameter LOG2_FFT_LEN bound to: 12 - type: integer 
+	Parameter AD_WIDTH bound to: 12 - type: integer 
+	Parameter PEAK_NUM bound to: 3 - type: integer 
+	Parameter SAMPLE_FREQ bound to: 1000000000 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'pre_mean' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/pre_mean.v:23]
+	Parameter AD_WIDTH bound to: 12 - type: integer 
+	Parameter LOG2_FFT_LEN bound to: 12 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'RAM_dual_8096' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/RAM_dual_8096_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RAM_dual_8096' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/RAM_dual_8096_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'pre_mean' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/pre_mean.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Single_mean' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Single_mean.v:25]
+	Parameter FFT_DATA_WITDH bound to: 24 - type: integer 
+	Parameter LOG2_FFT_LEN bound to: 12 - type: integer 
+	Parameter AD_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'square_12_12' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/square_12_12_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'square_12_12' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/square_12_12_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Dual_pram_Pre' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Dual_pram_Pre.v:23]
+	Parameter DATA_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH bound to: 11 - type: integer 
+	Parameter OUTPUT_REG bound to: TRUE - type: string 
+	Parameter RAM_INIT_FILE bound to: (null) - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'Dual_pram_Pre' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Dual_pram_Pre.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Cross_Clock_Domain_Fast_to_Slow' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA/Cross_Clock_Domain_Fast_to_Slow.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Cross_Clock_Domain_Fast_to_Slow' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA/Cross_Clock_Domain_Fast_to_Slow.v:22]
+WARNING: [Synth 8-689] width (24) of port connection 'data_o' does not match port width (32) of module 'Cross_Clock_Domain_Fast_to_Slow' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Single_mean.v:652]
+INFO: [Synth 8-6155] done synthesizing module 'Single_mean' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Single_mean.v:25]
+INFO: [Synth 8-226] default block is never used [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_TOP.v:239]
+INFO: [Synth 8-6157] synthesizing module 'FFT_Base2_DIT' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Base2_DIT.v:23]
+	Parameter DATA_INPUT_WITDH bound to: 24 - type: integer 
+	Parameter LOG2_FFT_LEN bound to: 12 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'FFT_Addr_Flip' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Addr_Flip.v:22]
+	Parameter LOG2_FFT_LEN bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'FFT_Addr_Flip' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Addr_Flip.v:22]
+INFO: [Synth 8-6157] synthesizing module 'FFT_Butfly_Process' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Butfly_Process.v:23]
+	Parameter DATA_INPUT_WITDH bound to: 24 - type: integer 
+	Parameter TWIDDLE_PRECISION bound to: 16 - type: integer 
+	Parameter LOG2_FFT_LEN bound to: 12 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'FFT_Dpram_Ctrl' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Dpram_Ctrl.v:23]
+	Parameter DATA_INPUT_WITDH bound to: 24 - type: integer 
+	Parameter LOG2_FFT_LEN bound to: 12 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'SYN_DPRAM' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/SYN_DPRAM.v:22]
+	Parameter DATA_WIDTH bound to: 52 - type: integer 
+	Parameter ADDR_WIDTH bound to: 9 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'SYN_DPRAM' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/SYN_DPRAM.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'FFT_Dpram_Ctrl' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Dpram_Ctrl.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Butterfly' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Butterfly.v:24]
+	Parameter DATA_INPUT_WITDH bound to: 24 - type: integer 
+	Parameter TWIDDLE_WITDH bound to: 16 - type: integer 
+	Parameter LOG2_FFT_LEN bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Butterfly' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Butterfly.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'FFT_Butfly_Process' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Butfly_Process.v:23]
+INFO: [Synth 8-6157] synthesizing module 'FFT_Process_Ctrl' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Process_Ctrl.v:23]
+	Parameter LOG2_FFT_LEN bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'FFT_Process_Ctrl' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Process_Ctrl.v:23]
+INFO: [Synth 8-6157] synthesizing module 'FFT_Wn_Ctrl' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Wn_Ctrl.v:22]
+	Parameter LOG2_FFT_LEN bound to: 12 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Cordic_Sin_Cos' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Cordic_Sin_Cos.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Cordic_Pre' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Cordic_Pre.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Cordic_Pre' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Cordic_Pre.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Cordic_Post' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Cordic_Post.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Cordic_Post' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Cordic_Post.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Cordic_Sin_Cos' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Cordic_Sin_Cos.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'Phase_in' does not match port width (20) of module 'Cordic_Sin_Cos' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Wn_Ctrl.v:335]
+WARNING: [Synth 8-689] width (32) of port connection 'Phase_in' does not match port width (20) of module 'Cordic_Sin_Cos' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Wn_Ctrl.v:359]
+WARNING: [Synth 8-689] width (32) of port connection 'Phase_in' does not match port width (20) of module 'Cordic_Sin_Cos' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Wn_Ctrl.v:381]
+WARNING: [Synth 8-689] width (32) of port connection 'Phase_in' does not match port width (20) of module 'Cordic_Sin_Cos' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Wn_Ctrl.v:403]
+WARNING: [Synth 8-689] width (32) of port connection 'Phase_in' does not match port width (20) of module 'Cordic_Sin_Cos' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Wn_Ctrl.v:425]
+WARNING: [Synth 8-689] width (32) of port connection 'Phase_in' does not match port width (20) of module 'Cordic_Sin_Cos' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Wn_Ctrl.v:447]
+WARNING: [Synth 8-689] width (32) of port connection 'Phase_in' does not match port width (20) of module 'Cordic_Sin_Cos' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Wn_Ctrl.v:469]
+WARNING: [Synth 8-689] width (32) of port connection 'Phase_in' does not match port width (20) of module 'Cordic_Sin_Cos' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Wn_Ctrl.v:491]
+INFO: [Synth 8-6155] done synthesizing module 'FFT_Wn_Ctrl' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Wn_Ctrl.v:22]
+INFO: [Synth 8-6157] synthesizing module 'FFT_OUT_PROCESS' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_OUT_PROCESS.v:23]
+	Parameter DATA_INPUT_WITDH bound to: 24 - type: integer 
+	Parameter LOG2_FFT_LEN bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'FFT_OUT_PROCESS' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_OUT_PROCESS.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'FFT_Base2_DIT' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Base2_DIT.v:23]
+INFO: [Synth 8-6157] synthesizing module 'FFT_FREQ_CAL' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_FREQ_CAL.v:22]
+	Parameter FFT_DATA_WITDH bound to: 24 - type: integer 
+	Parameter LOG2_FFT_LEN bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'FFT_FREQ_CAL' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_FREQ_CAL.v:22]
+INFO: [Synth 8-6157] synthesizing module 'FFT_Pruning' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Pruning.v:23]
+	Parameter DATA_INPUT_WITDH bound to: 24 - type: integer 
+	Parameter LOG2_FFT_NORZEROS_LEN bound to: 12 - type: integer 
+	Parameter PEAK_NUM bound to: 3 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Pruning_Butfly_Process' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Butfly_Process.v:23]
+	Parameter DATA_INPUT_WITDH bound to: 24 - type: integer 
+	Parameter TWIDDLE_PRECISION bound to: 32 - type: integer 
+	Parameter LOG2_FFT_LEN bound to: 12 - type: integer 
+	Parameter PEAK_NUM bound to: 3 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Pruning_Dpram_Ctrl' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Dpram_Ctrl.v:23]
+	Parameter DATA_INPUT_WITDH bound to: 24 - type: integer 
+	Parameter LOG2_FFT_LEN bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Pruning_Dpram_Ctrl' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Dpram_Ctrl.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Pruning_Butterfly' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Butterfly.v:22]
+	Parameter DATA_INPUT_WITDH bound to: 24 - type: integer 
+	Parameter TWIDDLE_WITDH bound to: 32 - type: integer 
+	Parameter LOG2_FFT_LEN bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Pruning_Butterfly' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Butterfly.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Pruning_Butfly_Process' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Butfly_Process.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Pruning_Process_Ctrl' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Process_Ctrl.v:23]
+	Parameter LOG2_FFT_NORZEROS_LEN bound to: 12 - type: integer 
+	Parameter LOG2_FFT_LEN bound to: 20 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Pruning_Process_Ctrl' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Process_Ctrl.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Pruning_Wn_Ctrl' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Wn_Ctrl.v:23]
+	Parameter TWIDDLE_PRECISION bound to: 32 - type: integer 
+	Parameter LOG2_FFT_NORZEROS_LEN bound to: 12 - type: integer 
+	Parameter LOG2_FFT_LEN bound to: 20 - type: integer 
+	Parameter SHIFT_BITS_LEN bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Pruning_Cordic_Sin_Cos' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Cordic_Sin_Cos.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Pruning_Cordic_Pre' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Cordic_Pre.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Pruning_Cordic_Pre' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Cordic_Pre.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Pruning_Cordic_Post' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Cordic_Post.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Pruning_Cordic_Post' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Cordic_Post.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Pruning_Cordic_Sin_Cos' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Cordic_Sin_Cos.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Pruning_Wn_Ctrl' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Wn_Ctrl.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Pruning_Out_Process' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Out_Process.v:23]
+	Parameter DATA_INPUT_WITDH bound to: 24 - type: integer 
+	Parameter LOG2_FFT_NORZEROS_LEN bound to: 12 - type: integer 
+	Parameter LOG2_FFT_LEN bound to: 20 - type: integer 
+	Parameter CACHE_ADDR_LEN bound to: 8 - type: integer 
+	Parameter PEAK_NUM bound to: 3 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'SYN_DPRAM__parameterized0' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/SYN_DPRAM.v:22]
+	Parameter DATA_WIDTH bound to: 53 - type: integer 
+	Parameter ADDR_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'SYN_DPRAM__parameterized0' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/SYN_DPRAM.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Pruning_Peak_Search' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Peak_Search.v:22]
+	Parameter FFT_DATA_WITDH bound to: 24 - type: integer 
+	Parameter LOG2_FFT_NORZEROS_LEN bound to: 12 - type: integer 
+	Parameter LOG2_FFT_LEN bound to: 20 - type: integer 
+	Parameter SHIFT_BITS_LEN bound to: 8 - type: integer 
+	Parameter PEAK_NUM bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Pruning_Peak_Search' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Peak_Search.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Pruning_Out_Process' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Out_Process.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'FFT_Pruning' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Pruning.v:23]
+WARNING: [Synth 8-689] width (14) of port connection 'peak_location' does not match port width (12) of module 'FFT_Pruning' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_TOP.v:408]
+INFO: [Synth 8-6157] synthesizing module 'sqrt24' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/sqrt24_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'sqrt24' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.runs/synth_1/.Xil/Vivado-9472-xie/realtime/sqrt24_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'FFT_TOP' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_TOP.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ADDA_DATA' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA_DATA.v:1]
+WARNING: [Synth 8-689] width (12) of port connection 'data_DA_a_out_p' does not match port width (11) of module 'ADDA_DATA' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA/ADDA_TOP.v:239]
+WARNING: [Synth 8-689] width (12) of port connection 'data_DA_a_out_n' does not match port width (11) of module 'ADDA_DATA' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA/ADDA_TOP.v:240]
+WARNING: [Synth 8-689] width (12) of port connection 'data_DA_b_out_p' does not match port width (11) of module 'ADDA_DATA' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA/ADDA_TOP.v:241]
+WARNING: [Synth 8-689] width (12) of port connection 'data_DA_b_out_n' does not match port width (11) of module 'ADDA_DATA' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA/ADDA_TOP.v:242]
+INFO: [Synth 8-6155] done synthesizing module 'ADDA' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA/ADDA_TOP.v:21]
+WARNING: [Synth 8-689] width (11) of port connection 'data_DA_a_out_p' does not match port width (12) of module 'ADDA' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:589]
+WARNING: [Synth 8-689] width (11) of port connection 'data_DA_a_out_n' does not match port width (12) of module 'ADDA' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:590]
+WARNING: [Synth 8-689] width (11) of port connection 'data_DA_b_out_p' does not match port width (12) of module 'ADDA' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:591]
+WARNING: [Synth 8-689] width (11) of port connection 'data_DA_b_out_n' does not match port width (12) of module 'ADDA' [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:592]
+INFO: [Synth 8-6155] done synthesizing module 'ALT_TOP' (0#1) [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:23]
+WARNING: [Synth 8-6014] Unused sequential element Data_reg[19] was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_Receiver.v:111]
+WARNING: [Synth 8-6014] Unused sequential element Data_reg[18] was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_Receiver.v:111]
+WARNING: [Synth 8-6014] Unused sequential element Data_reg[17] was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_Receiver.v:111]
+WARNING: [Synth 8-6014] Unused sequential element Data_reg[16] was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_Receiver.v:111]
+WARNING: [Synth 8-6014] Unused sequential element Data_reg[15] was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_Receiver.v:111]
+WARNING: [Synth 8-6014] Unused sequential element Data_reg[14] was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_Receiver.v:111]
+WARNING: [Synth 8-6014] Unused sequential element Data_reg[13] was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_Receiver.v:111]
+WARNING: [Synth 8-6014] Unused sequential element Data_reg[12] was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_Receiver.v:111]
+WARNING: [Synth 8-6014] Unused sequential element Data_reg[11] was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_Receiver.v:111]
+WARNING: [Synth 8-6014] Unused sequential element Data_reg[10] was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_Receiver.v:111]
+WARNING: [Synth 8-6014] Unused sequential element tx_done1_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_Transmitter.v:177]
+WARNING: [Synth 8-6014] Unused sequential element tx_done2_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_Transmitter.v:178]
+WARNING: [Synth 8-6014] Unused sequential element Check_cnt_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_Transmitter.v:217]
+WARNING: [Synth 8-3848] Net mem_data[19] in module/entity UART_Transmitter does not have driver. [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_Transmitter.v:54]
+WARNING: [Synth 8-3848] Net mem_data[18] in module/entity UART_Transmitter does not have driver. [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_Transmitter.v:54]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'U_UART_TOP'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:319]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'UART_Receiver_Init'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_TOP.v:270]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'UART_Transmitter_Init'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_TOP.v:320]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'VIO_UART'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_TOP.v:112]
+WARNING: [Synth 8-7137] Register ALT_TRF_Gain3_U94_reg in module UART_TOP has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_TOP.v:162]
+WARNING: [Synth 8-7137] Register change_reg in module UART_TOP has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/UART_TOP.v:165]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'VIO_AD'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/MWD1000L_CONFIG_INIT.v:81]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'MWD1000L_CONFIG_INIT'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:363]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'VIO_DA'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/LTC2000_CONFIG_INIT1.v:62]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'LTC2000_Config_Init'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:386]
+WARNING: [Synth 8-3848] Net Current_State_DA in module/entity LTC2000_CONFIG_INIT1 does not have driver. [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/LTC2000_CONFIG_INIT1.v:34]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'VIO_SW_DSA'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/SW_TOP.v:125]
+WARNING: [Synth 8-3848] Net HMC1119_6_CLK in module/entity DSA_Top does not have driver. [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/DSA_Top.v:99]
+WARNING: [Synth 8-3848] Net HMC1119_6_SERNIN in module/entity DSA_Top does not have driver. [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/DSA_Top.v:101]
+WARNING: [Synth 8-6014] Unused sequential element reg1_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_SPI_MASTER_ADDA.v:150]
+WARNING: [Synth 8-6014] Unused sequential element reg2_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_SPI_MASTER_ADDA.v:151]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'XND4351_SPI_FUNCTION_MASTER_ADDA'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_TOP_ADDA.v:109]
+WARNING: [Synth 8-6014] Unused sequential element send_data_number_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_SPI_FUNCTION_MASTER_ADDA.v:184]
+WARNING: [Synth 8-7137] Register recive_data_VIO_reg in module XND4351_SPI_FUNCTION_MASTER_ADDA has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_SPI_FUNCTION_MASTER_ADDA.v:596]
+WARNING: [Synth 8-4767] Trying to implement RAM ' ' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM ' ' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM ' ' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM ' ' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM ' ' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM ' ' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM ' ' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'VIO_U_XND4351'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_TOP_ADDA.v:56]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'U_XND4351_ADDA'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:490]
+WARNING: [Synth 8-6014] Unused sequential element reg1_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_SPI_MASTER.v:150]
+WARNING: [Synth 8-6014] Unused sequential element reg2_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_SPI_MASTER.v:151]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'XND4351_SPI_FUNCTION_MASTER_LOOP'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_TOP.v:109]
+WARNING: [Synth 8-6014] Unused sequential element send_data_number_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_SPI_FUNCTION_MASTER.v:184]
+WARNING: [Synth 8-7137] Register recive_data_VIO_reg in module XND4351_SPI_FUNCTION_MASTER_LOOP has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/XND4351_SPI_FUNCTION_MASTER.v:596]
+WARNING: [Synth 8-4767] Trying to implement RAM ' ' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM ' ' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM ' ' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM ' ' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM ' ' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM ' ' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM ' ' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'U_XND4351_LOOP'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:510]
+WARNING: [Synth 8-6014] Unused sequential element reg1_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/GX122_SPI_MASTER.v:59]
+WARNING: [Synth 8-6014] Unused sequential element reg2_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/GX122_SPI_MASTER.v:60]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'GX122_SPI_FUNCTION'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/GX122_TEMPERATURE.v:169]
+WARNING: [Synth 8-6014] Unused sequential element send_data_number_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/GX122_SPI_FUNCTION.v:189]
+WARNING: [Synth 8-7137] Register recive_data_reg in module GX122_SPI_FUNCTION has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/GX122_SPI_FUNCTION.v:610]
+WARNING: [Synth 8-4767] Trying to implement RAM ' ' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM ' ' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM ' ' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM ' ' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM ' ' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM ' ' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+WARNING: [Synth 8-4767] Trying to implement RAM ' ' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+	1: RAM read is not driven by RAM register. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'U_GX122_TEMPERATURE'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:530]
+WARNING: [Synth 8-6014] Unused sequential element rx_ad2_load_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/imports/new/DATA_IN_PUT.v:120]
+WARNING: [Synth 8-6014] Unused sequential element sink_sop1_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Single_mean.v:198]
+WARNING: [Synth 8-6014] Unused sequential element sink_sop2_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Single_mean.v:199]
+WARNING: [Synth 8-3848] Net Sngle_test in module/entity Single_mean does not have driver. [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Single_mean.v:46]
+WARNING: [Synth 8-6014] Unused sequential element Butfly_Wr3_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Butterfly.v:303]
+WARNING: [Synth 8-6014] Unused sequential element Butfly_Wr4_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Butterfly.v:304]
+WARNING: [Synth 8-6014] Unused sequential element z17_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Cordic_Sin_Cos.v:507]
+WARNING: [Synth 8-6014] Unused sequential element sink_valid2_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Base2_DIT.v:154]
+WARNING: [Synth 8-6014] Unused sequential element sink_valid3_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Base2_DIT.v:155]
+WARNING: [Synth 8-6014] Unused sequential element sink_sop1_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Base2_DIT.v:156]
+WARNING: [Synth 8-6014] Unused sequential element sink_sop2_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Base2_DIT.v:157]
+WARNING: [Synth 8-6014] Unused sequential element sink_sop3_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Base2_DIT.v:158]
+WARNING: [Synth 8-6014] Unused sequential element Butfly_Wr3_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Butterfly.v:377]
+WARNING: [Synth 8-6014] Unused sequential element Butfly_Wr4_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Butterfly.v:378]
+WARNING: [Synth 8-6014] Unused sequential element FFT_Cnt_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Process_Ctrl.v:287]
+WARNING: [Synth 8-6014] Unused sequential element Level_n[29].z_reg[29] was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Cordic_Sin_Cos.v:161]
+WARNING: [Synth 8-6014] Unused sequential element Quadrant_Cache[30].Quadrant_r_reg[30] was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Cordic_Sin_Cos.v:196]
+WARNING: [Synth 8-6014] Unused sequential element Current_state_reg_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/Pruning_Wn_Ctrl.v:125]
+WARNING: [Synth 8-6014] Unused sequential element sink_valid2_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Pruning.v:123]
+WARNING: [Synth 8-6014] Unused sequential element sink_valid3_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Pruning.v:124]
+WARNING: [Synth 8-6014] Unused sequential element sink_sop1_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Pruning.v:125]
+WARNING: [Synth 8-6014] Unused sequential element sink_sop2_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Pruning.v:126]
+WARNING: [Synth 8-6014] Unused sequential element sink_sop3_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_Pruning.v:127]
+WARNING: [Synth 8-6014] Unused sequential element pre_sop_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_TOP.v:229]
+WARNING: [Synth 8-6014] Unused sequential element sink_start_reg was removed.  [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/FFT/FFT_TOP.v:233]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ALT_FFT_Cache_Init'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA_DATA.v:662]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'RAM3'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA_DATA.v:433]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'RAM1'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA_DATA.v:412]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'RAM2'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA_DATA.v:423]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'RAM0'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA_DATA.v:401]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'VIO_AD_DELY'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA_DATA.v:294]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'U0_AdInterface'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA_DATA.v:301]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'your_instance_name'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA_DATA.v:556]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'U_DDS'. This will prevent further optimization [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/ADDA_DATA.v:564]
+WARNING: [Synth 8-3848] Net HGX3232EIMT_UART0_TXD_U23 in module/entity ALT_TOP does not have driver. [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:27]
+WARNING: [Synth 8-3848] Net HGX3232EIMT_UART1_TXD_U23 in module/entity ALT_TOP does not have driver. [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:30]
+WARNING: [Synth 8-3848] Net ADS_ENPWD in module/entity ALT_TOP does not have driver. [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:45]
+WARNING: [Synth 8-3848] Net LED1 in module/entity ALT_TOP does not have driver. [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:100]
+WARNING: [Synth 8-3848] Net FPGA_IO1 in module/entity ALT_TOP does not have driver. [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:226]
+WARNING: [Synth 8-3848] Net FPGA_IO2 in module/entity ALT_TOP does not have driver. [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:227]
+WARNING: [Synth 8-3848] Net FPGA_IO3 in module/entity ALT_TOP does not have driver. [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:228]
+WARNING: [Synth 8-3848] Net FPGA_IO4 in module/entity ALT_TOP does not have driver. [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:229]
+WARNING: [Synth 8-3848] Net FPGA_IO5 in module/entity ALT_TOP does not have driver. [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:230]
+WARNING: [Synth 8-3848] Net FPGA_IO6 in module/entity ALT_TOP does not have driver. [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:231]
+WARNING: [Synth 8-3848] Net FPGA_IO7 in module/entity ALT_TOP does not have driver. [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:232]
+WARNING: [Synth 8-3848] Net FPGA_IO8 in module/entity ALT_TOP does not have driver. [C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.srcs/sources_1/new/TOP.v:233]
+WARNING: [Synth 8-3917] design ALT_TOP has port GM12051ACPZ_R7_CLK_3V3_2_EN_U10 driven by constant 1
+WARNING: [Synth 8-3917] design ALT_TOP has port GM12051ACPZ_R7_DA_P1V8_EN_U4 driven by constant 1
+WARNING: [Synth 8-3917] design ALT_TOP has port GM12051ACPZ_R7_AD_P3V3_EN_U7 driven by constant 1
+WARNING: [Synth 8-3917] design ALT_TOP has port GM12051ACPZ_R7_CLK_3V3_1_EN_U8 driven by constant 1
+WARNING: [Synth 8-3917] design ALT_TOP has port CLP3045_DD_DA_P3V3_EN_U6 driven by constant 1
+WARNING: [Synth 8-3917] design ALT_TOP has port CLP3045_DD_VCC_P5V3_EN_U3 driven by constant 1
+WARNING: [Synth 8-3917] design ALT_TOP has port CLP3045_DD_RFOUT_P5V_EN_U11 driven by constant 1
+WARNING: [Synth 8-3917] design ALT_TOP has port CLP3045_DD_RFIN_P5V_EN_U9 driven by constant 1
+WARNING: [Synth 8-3917] design ALT_TOP has port LMX4644SZ_VCC_P3V8_EN_U3 driven by constant 1
+WARNING: [Synth 8-7129] Port Freq_Shift_Nums[19] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Shift_Nums[18] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Shift_Nums[17] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Shift_Nums[16] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Shift_Nums[15] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Shift_Nums[14] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Shift_Nums[13] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Shift_Nums[12] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Shift_Nums[11] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Shift_Nums[10] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Shift_Nums[9] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Shift_Nums[8] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Shift_Nums[7] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Shift_Nums[6] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Shift_Nums[5] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Shift_Nums[4] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Shift_Nums[3] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Shift_Nums[2] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Shift_Nums[1] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Shift_Nums[0] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[31] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[30] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[29] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[28] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[27] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[26] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[25] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[24] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[23] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[22] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[21] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[20] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[19] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[18] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[17] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[16] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[15] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[14] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[13] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[12] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[11] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[10] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[9] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[8] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[7] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[6] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[5] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[4] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[3] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[2] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[1] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Freq_Sample[0] in module Pruning_Peak_Search is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[31] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[30] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[29] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[28] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[27] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[26] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[25] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[24] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[23] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[22] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[21] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[20] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[19] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[18] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[17] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[16] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[15] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[14] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[13] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[12] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[11] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[10] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[9] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[8] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[7] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[6] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[5] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[4] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[3] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[2] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[1] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Stage_Cnt[0] in module Pruning_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FFT_stage[4] in module Pruning_Butfly_Process is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FFT_stage[3] in module Pruning_Butfly_Process is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FFT_stage[2] in module Pruning_Butfly_Process is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FFT_stage[1] in module Pruning_Butfly_Process is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FFT_stage[0] in module Pruning_Butfly_Process is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Addr_xout[11] in module Pruning_Butfly_Process is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Addr_xout[10] in module Pruning_Butfly_Process is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Addr_xout[9] in module Pruning_Butfly_Process is either unconnected or has no load
+WARNING: [Synth 8-7129] Port inverse in module FFT_Pruning is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sink_sop in module FFT_OUT_PROCESS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FFT_Cnt[19] in module FFT_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FFT_Cnt[18] in module FFT_Wn_Ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FFT_stage[4] in module FFT_Butfly_Process is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FFT_stage[3] in module FFT_Butfly_Process is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FFT_stage[2] in module FFT_Butfly_Process is either unconnected or has no load
+WARNING: [Synth 8-7129] Port FFT_stage[1] in module FFT_Butfly_Process is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 1698.434 ; gain = 725.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 1698.434 ; gain = 725.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 1698.434 ; gain = 725.508
+---------------------------------------------------------------------------------

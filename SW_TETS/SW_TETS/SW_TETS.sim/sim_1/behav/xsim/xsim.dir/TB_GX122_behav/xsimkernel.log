@@ -1,0 +1,7 @@
+Running: xsim.dir/TB_GX122_behav/xsimk.exe -simmode gui -wdb TB_GX122_behav.wdb -simrunnum 0 -socket 60190
+Design successfully loaded
+Design Loading Memory Usage: 13064 KB (Peak: 13064 KB)
+Design Loading CPU Usage: 155 ms
+Simulation completed
+Simulation Memory Usage: 21916 KB (Peak: 21916 KB)
+Simulation CPU Usage: 4890 ms

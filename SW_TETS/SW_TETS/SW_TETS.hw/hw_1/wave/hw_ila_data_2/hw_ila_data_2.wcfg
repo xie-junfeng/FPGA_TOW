@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/xie/Desktop/SW_TETS/SW_TETS/SW_TETS.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0"></ZoomStartTime>
+      <ZoomEndTime time="14"></ZoomEndTime>
+      <Cursor1Time time="0"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="116"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wave_markers>
+      <marker time="3754000" label="" />
+      <marker time="3779000" label="" />
+   </wave_markers>
+   <wvobject fp_name="AD_DA_FUNCTION/u_ADDA_DATA/data1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">AD_DA_FUNCTION/u_ADDA_DATA/data1[10:0]</obj_property>
+      <obj_property name="ObjectShortName">data1[10:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="AD_DA_FUNCTION/u_ADDA_DATA/data2" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">AD_DA_FUNCTION/u_ADDA_DATA/data2[10:0]</obj_property>
+      <obj_property name="ObjectShortName">data2[10:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="AD_DA_FUNCTION/u_ADDA_DATA/data3" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">AD_DA_FUNCTION/u_ADDA_DATA/data3[10:0]</obj_property>
+      <obj_property name="ObjectShortName">data3[10:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="AD_DA_FUNCTION/u_ADDA_DATA/data4" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">AD_DA_FUNCTION/u_ADDA_DATA/data4[10:0]</obj_property>
+      <obj_property name="ObjectShortName">data4[10:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="AD_DA_FUNCTION/u_ADDA_DATA/Dpram1_data_out" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">AD_DA_FUNCTION/u_ADDA_DATA/Dpram1_data_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Dpram1_data_out[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="AD_DA_FUNCTION/u_ADDA_DATA/Dpram2_data_out" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">AD_DA_FUNCTION/u_ADDA_DATA/Dpram2_data_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Dpram2_data_out[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="AD_DA_FUNCTION/u_ADDA_DATA/Dpram3_data_out" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">AD_DA_FUNCTION/u_ADDA_DATA/Dpram3_data_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Dpram3_data_out[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="AD_DA_FUNCTION/u_ADDA_DATA/Dpram4_data_out" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">AD_DA_FUNCTION/u_ADDA_DATA/Dpram4_data_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">Dpram4_data_out[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>
